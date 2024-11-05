@@ -6,6 +6,7 @@ const tiers = [
     id: 'tier-hobby',
     href: '#',
     priceMonthly: '1500 ₹',
+    priceMain:'500 ₹',
     description: "The perfect plan if you're just getting started with our product.",
     features: ['React Basic', 'Functions', 'css', '24-hour support response time'],
     featured: false,
@@ -15,6 +16,7 @@ const tiers = [
     id: 'tier-enterprise',
     href: '#',
     priceMonthly: '3000 ₹',
+    priceMain:'1000 ₹',
     description: 'Dedicated support and information to your learning curve.',
     features: [
       'All react concepts',
@@ -26,6 +28,24 @@ const tiers = [
       'Responsive Page'
     ],
     featured: true,
+  },
+  {
+    name: 'Enterprise',
+    id: 'tier-hobby',
+    href: '#',
+    priceMonthly: '2000 ₹',
+    priceMain:'1000 ₹',
+    description: 'Conceptual Information to your Javascript curve.',
+    features: [
+      'All Javascript concepts',
+      'Apis',
+      'Live project',
+      'Coding Question',
+      'Advance Javscript',
+      'Coding rounds',
+      
+    ],
+    featured: false,
   },
 ]
 
@@ -79,10 +99,18 @@ export default function Pricing() {
               <span
                 className={classNames(
                   tier.featured ? 'text-white' : 'text-gray-900',
-                  'text-5xl font-semibold tracking-tight',
+                  'text-5xl font-semibold tracking-tight line-through',
                 )}
               >
                 {tier.priceMonthly}
+              </span>
+              <span
+                className={classNames(
+                  tier.featured ? 'text-white' : 'text-gray-900',
+                  'text-5xl font-semibold tracking-tight mx-3',
+                )}
+              >
+                {tier.priceMain}
               </span>
               <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-500', 'text-base')}>/month</span>
             </p>
