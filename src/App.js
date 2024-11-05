@@ -8,6 +8,7 @@ import Stats from './component/Stats';
 import Courses from './component/Courses';
 import Drawer from './component/Drawer';
 import Footer from './component/Footer';
+import Card from './component/Card';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Courses/>
       <Stats/>
       <Pricing/>
+      <Card/>
       <Blogs/>
       <Footer/>
     </div>

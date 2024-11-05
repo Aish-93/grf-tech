@@ -153,10 +153,13 @@ const Header = () => {
               Features
             </a>
             <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Marketplace
+              Coding Test
             </a>
             <a href="#" className="text-sm/6 font-semibold text-gray-900">
-              Company
+              Online videos
+            </a>
+            <a href="#" className="text-sm/6 font-semibold text-gray-900">
+              Submit a doubt
             </a>
           </PopoverGroup>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
