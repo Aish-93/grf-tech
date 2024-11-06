@@ -61,3 +61,28 @@
  font-weight: bolder;
  
 }
+
+.inset {
+  position: absolute;
+  inset: 0;
+}
+.white {
+  color: white;
+}
+.gray {
+  color: #446;
+}
+
+.full {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient {
+  background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
+}

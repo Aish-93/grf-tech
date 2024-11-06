@@ -1,29 +1,30 @@
 import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon } from '@heroicons/react/24/outline'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faInstagram,faJs ,faReact,faNode,faBattleNet} from '@fortawesome/free-brands-svg-icons';
 const features = [
   {
     name: 'Javascript',
     description:
       'Learn the basics of JavaScript, including variables, data types, loops, and functions. Dive into more complex topics like closures, asynchronous programming, and the event loop',
-    icon: CloudArrowUpIcon,
+    icon: ()=> <FontAwesomeIcon icon={faJs} size='2xl' color='#F0DB4F'/>
   },
   {
-    name: '.Net',
+    name: 'Node-js',
     description:
-      'Get a solid foundation in .NET, exploring key concepts, architecture, and the .NET ecosystem. Create dynamic, data-driven web applications using ASP.NET Core, Discover how to design and implement RESTful services using ASP.NET Core',
-    icon: LockClosedIcon,
+      'Get a solid foundation in Nodejs, exploring key concepts, architecture, and the Nodejs ecosystem. Create dynamic, data-driven web applications using Node.js, Discover how to design and implement RESTful services using Nodejs',
+    icon: ()=> <FontAwesomeIcon icon={faNode} size='2xl' color='green' />,
   },
   {
     name: 'React',
     description:
       'Understand the core concepts of React, including components, props, and state management. Build your first React application from scratch and get hands-on experience',
-    icon: ArrowPathIcon,
+    icon: ()=> <FontAwesomeIcon icon={faReact} size='2xl' color="#61dafb" />,
   },
   {
     name: 'Full Stack Apllication',
     description:
       'Combine React with backend technologies like Node.js and Express to create full-stack application. Learn how to work with APIs, handle authentication, and manage database interactions',
-    icon: FingerPrintIcon,
+    icon: ()=> <FontAwesomeIcon icon={faBattleNet} size='2xl' />,
   },
 ]
 
@@ -48,7 +49,7 @@ export default function Features() {
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
                 <dt className="text-base/7 font-semibold text-gray-900">
-                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg">
                     <feature.icon aria-hidden="true" className="h-6 w-6 text-white" />
                   </div>
                   {feature.name}

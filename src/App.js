@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import { ParallaxProvider } from "react-scroll-parallax";
 import './App.css';
 import Header from './component/Header';
 import Features from './component/Feature';
@@ -11,23 +12,28 @@ import Footer from './component/Footer';
 import Card from './component/Card';
 import Hcards from './component/Hcards';
 import Stack from './component/Stack';
+import { AdvancedBannerTop } from './component/AdvancedBannerTop';
 
 
 function App() {
   return (
+    <ParallaxProvider>
     <div className="App">
       <Header/>
+      <AdvancedBannerTop/>
       <Features/>
       {/* <Drawer/> */}
-      <Courses/>
+      {/* <Courses/> */}
       <Stats/>
       <Hcards/>
       <Pricing/>
       {/* <Stack/> */}
       <Card/>
       <Blogs/>
+      
       <Footer/>
     </div>
+    </ParallaxProvider>
   );
 }
 
