@@ -39,7 +39,7 @@ const tiers = [
     features: [
       'All Javascript concepts',
       'Apis',
-      'Live project',
+      'Game',
       'Coding Question',
       'Advance Javscript',
       'Coding rounds',

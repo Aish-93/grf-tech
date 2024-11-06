@@ -10,6 +10,7 @@ import Drawer from './component/Drawer';
 import Footer from './component/Footer';
 import Card from './component/Card';
 import Hcards from './component/Hcards';
+import Stack from './component/Stack';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Stats/>
       <Hcards/>
       <Pricing/>
+      {/* <Stack/> */}
       <Card/>
       <Blogs/>
       <Footer/>
