@@ -13,6 +13,7 @@ import Card from './component/Card';
 import Hcards from './component/Hcards';
 import Stack from './component/Stack';
 import { AdvancedBannerTop } from './component/AdvancedBannerTop';
+import Faqs from './component/Faqs';
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       {/* <Stack/> */}
       <Card/>
       <Blogs/>
-      
+      <Faqs/>
       <Footer/>
     </div>
     </ParallaxProvider>
