@@ -10,6 +10,7 @@ import logo from '../icons/giLogo.jpg';
 import './Footer.css';
 import A from '../icons/icons8-msg.png';
 import B from '../icons/icons8-call.png';
+import C from '../icons/icons8-location-24.png';
 
 function Footer() {
   return (
@@ -70,20 +71,6 @@ function Footer() {
                 JavaScript, empowering learners with foundational skills for web
                 development and frontend careers.
               </p>
-              <div className='ps-5'>
-                <div className='d-flex'>
-                  <img style={{ width: '25px' }} src={A} />
-                  <h6 className='mt-1 mx-3 footer-block-txt '>
-                    +91 9575212142
-                  </h6>
-                </div>
-                <div className='d-flex mt-2'>
-                  <img style={{ width: '25px' }} src={B} />
-                  <h6 className='text-center mt-1 mx-3 footer-block-txt '>
-                    info@grapheneinfotech.com
-                  </h6>
-                </div>
-              </div>
             </div>
 
             <div className='my-5 footer-links'>
@@ -94,52 +81,32 @@ function Footer() {
                 QuickLinks
               </h4>
               <h5
-                className='text-start footer-block-txt'
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 About Us
               </h5>
               <h5
-                className='text-start footer-block-txt'
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 Contact Us
               </h5>
 
-              {/* <h5
-                className='text-start footer-block-txt'
-                style={{ fontSize: '16px' }}
-              >
-                Product
-              </h5> */}
               <h5
-                className='text-start footer-block-txt '
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 Blogs
               </h5>
-            </div>
-            <div className='my-5 footer-links'>
-              <h4
-                className='text-start footer-block-txt page-title'
-                style={{ fontSize: '22px' }}
-              >
-                Help
-              </h4>
               <h5
-                className='text-start footer-block-txt'
-                style={{ fontSize: '16px' }}
-              >
-                Payment Details
-              </h5>
-
-              <h5
-                className='text-start footer-block-txt'
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 FAQ's
               </h5>
             </div>
+
             <div className='my-5 footer-links'>
               <h4
                 className='text-start footer-block-txt pb-1 page-title'
@@ -148,17 +115,58 @@ function Footer() {
                 Customer Policy
               </h4>
               <h5
-                className='text-start footer-block-txt'
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 Privacy Policy
               </h5>
               <h5
-                className='text-start footer-block-txt'
+                className='text-start footer-block-txt mt-2'
+                style={{ fontSize: '16px' }}
+              >
+                Payment Details
+              </h5>
+              <h5
+                className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 Terms & Conditions
               </h5>
+            </div>
+            <div className='my-5 footer-links'>
+              <h4
+                className='text-start footer-block-txt pb-1 page-title'
+                style={{ fontSize: '22px' }}
+              >
+                Get in Touch
+              </h4>
+
+              <div className='d-flex mt-2'>
+                <img style={{ width: '25px', objectFit: 'contain' }} src={A} />
+                <h6 className='mt-1 mx-3 footer-block-txt '>+91 9575212142</h6>
+              </div>
+              <div className='d-flex mt-2'>
+                <img style={{ width: '25px', objectFit: 'contain' }} src={B} />
+                <h6 className='text-center mt-1 mx-3 footer-block-txt '>
+                  info@grapheneinfotech.com
+                </h6>
+              </div>
+              <div className='d-flex mt-2 text-start'>
+                <img
+                  style={{
+                    width: '25px',
+                    objectFit: 'contain',
+                    textAlign: 'start',
+                  }}
+                  src={C}
+                />
+                <h6 className='text-start mt-1 mx-3 footer-block-txt '>
+                  Plot No. 90, Above Dominos,
+                  <br /> Infront of Raymond Showroom, <br />
+                  Zone-2 MP Nagar, Bhopal, <br />
+                  Madhya Pradesh 462023
+                </h6>
+              </div>
             </div>
           </div>
         </div>
