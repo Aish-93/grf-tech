@@ -1,0 +1,114 @@
+.page-title:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 5px 0px 0px;
+    /* This will center the border. */
+    width: 50%;
+    /* Change this to whatever width you want. */
+    padding-top: 10px;
+    /*This creates some space between the element and the border. */
+    border-bottom: 5px solid rgb(168, 82, 7);
+    /* This creates the border. Replace black with whatever color you want. */
+}
+
+.page-titles:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    /* This will center the border. */
+    width: 10%;
+    /* Change this to whatever width you want. */
+    padding-top: 10px;
+    /*This creates some space between the element and the border. */
+    border-bottom: 5px solid rgb(168, 82, 7);
+    /* This creates the border. Replace black with whatever color you want. */
+}
+
+.footer-container {
+    margin-top: 350px;
+}
+
+.pimg1 {
+    position: relative;
+    width: 97vw;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    min-height: 300px;
+    border-radius: 20px;
+}
+
+.pimg1::before {
+    border-radius: 20px;
+    content: "";
+    /* background: url('../../image/bannerHomeA.jpg') no-repeat fixed center; */
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.Intro {
+    color: white;
+}
+
+.need-help {
+    color: rgb(245, 124, 18);
+}
+
+.need-help-heading {
+    font-size: 59px;
+}
+
+/* footer */
+.footer-block {
+    /* border-top: 5px solid rgb(117, 49, 9); */
+    /* display: inline-block; */
+    color: #fff;
+    position: relative;
+    /* background: url('https://media.licdn.com/dms/image/D4D12AQHbPUMFblT60w/article-cover_image-shrink_720_1280/0/1705865948243?e=2147483647&v=beta&t=E0QTkvdsKt9dei2euCfWellBo67obWhaEJL7g9P4Aec'); */
+    /* background-position: center; */
+    /* Center the image */
+    /* background-repeat: no-repeat; */
+    /* Do not repeat the image */
+    /* background-size: cover; */
+    /* Resize the background image to cover the entire container */
+    padding: 10px;
+}
+
+.footer-block:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    background: rgb(17, 24, 39);
+
+    transition: all .2s linear;
+}
+
+/* .footer-block:hover:before {
+  background: none;
+} */
+
+.footer-block-txt {
+    position: relative;
+}
+
+.ul {
+    position: relative;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.footer-links{
+    /* margin-top: -10vh; */
+}
