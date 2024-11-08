@@ -1,0 +1,136 @@
+.course-banner {
+    height: 70vh;
+    width: 100vw;
+    color: #fff;
+    font-weight: 700;
+    background-size: cover;
+    background-image: url('../icons/priceE.png');
+    background-repeat: no-repeat;
+    bottom: 0;
+    padding-right: 20vw;
+    /* z-index: -1; */
+}
+
+.banner-heading {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+
+.btn-container-banner {
+    width: 35vw;
+    margin-top: 6vw;
+}
+
+.banner-text {
+    margin-top: 5vw;
+    font-size: 24px;
+}
+
+.banner-container {
+    width: 100vw;
+}
+
+.banner-left {
+    width: 60%;
+    padding-left: 15vw;
+}
+
+.join-btn {
+    width: 15vw;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.banner-right {
+    width: 40%;
+    height: 31vw;
+}
+
+.banner-inside {
+    margin-top: 20vh;
+    height: 30vh;
+    width: 15vw;
+    padding-top: 50px;
+    margin-left: 9vw;
+}
+
+.actual-price {
+    font-size: 26px;
+    text-decoration: line-through;
+    color: rgb(50, 47, 47);
+}
+
+.offered-price {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+/* CourseDetail CSS */
+.course-detail-heading {
+    /* border: 1px solid black; */
+    width: 220px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(152, 249, 218);
+    color: rgb(9, 8, 67);
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 24px;
+    padding-top: 10px;
+}
+
+.daywise-course-container {
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.course-detail-card {
+
+    width: 26vw;
+    /* border: 1px solid black; */
+    height: 40vh;
+    background-color: #F4F7FE;
+    border-radius: 15px;
+}
+
+.daywise-text {
+    /* margin-bottom: var(--wp--preset--spacing--30); */
+    font-style: normal;
+    /* font-weight: 500; */
+    font-optical-sizing: auto;
+}
+
+.detail-btn1 {
+    width: 24%;
+    border: 2px solid #424ECF;
+    color: #424ECF;
+    border-radius: 22px;
+    margin-right: 24vw;
+    border-style: solid;
+    padding-left: var(--wp--preset--spacing--50);
+}
+
+.detail-btn2 {
+    width: 24vw;
+    height: 35px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 15px;
+    border-style: solid;
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(230, 91, 0);
+
+}
+
+.daywise-topic {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: var(--wp--preset--spacing--30);
+    font-optical-sizing: auto;
+}
