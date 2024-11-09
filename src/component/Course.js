@@ -1,10 +1,13 @@
 import React from 'react';
 import './Course.css';
 import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
 
 const Course = () => {
+  let navigate = useNavigate();
+
   return (
-    <div className='course-banner'>
+    <div className='course-banner mt-5'>
       <div className='banner-container d-flex'>
         <div className='banner-left'>
           <h1 className='banner-heading text-start'>Graphene InfoTech</h1>
@@ -16,10 +19,18 @@ const Course = () => {
           </p>
           <p></p>
           <div className='btn-container-banner d-flex justify-between'>
-            <Button className='join-btn p-2' variant='light'>
+            <Button
+              className='join-btn p-2'
+              variant='light'
+              onClick={() => navigate('/coursedetail')}
+            >
               See Details
             </Button>
-            <Button className='join-btn p-2' variant='primary'>
+            <Button
+              className='join-btn p-2'
+              variant='primary'
+              onClick={() => navigate('/enrollment')}
+            >
               Enroll now
             </Button>
           </div>

@@ -68,6 +68,10 @@
 }
 
 /* CourseDetail CSS */
+.banner-course{
+    background-color: #424ECF;
+    height: 30vh;
+}
 .course-detail-heading {
     /* border: 1px solid black; */
     width: 220px;
@@ -92,7 +96,7 @@
 
     width: 26vw;
     /* border: 1px solid black; */
-    height: 40vh;
+    height: 50vh;
     background-color: #F4F7FE;
     border-radius: 15px;
 }
@@ -124,13 +128,20 @@
     border-style: solid;
     font-family: "Montserrat", sans-serif;
     background-color: rgb(230, 91, 0);
-
+margin-top:80px;
 }
 
 .daywise-topic {
     font-size: 18px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: var(--wp--preset--spacing--30);
+    /* padding: 30px; */
     font-optical-sizing: auto;
+}
+
+/* CSS for Stack.js */
+.enroll-form{
+    width: 80vw;
+    border: 2px solid gray;
+
 }
