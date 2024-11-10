@@ -27,7 +27,7 @@ import {
 } from '@heroicons/react/20/solid';
 import logo from '../icons/giLogo.jpg';
 
-import logo from "../icons/logo.ico.jpeg"
+// import logo from "../icons/logo.ico.jpeg"
 const products = [
   {
     name: 'Analytics',
@@ -109,7 +109,7 @@ const Header = () => {
 
               <PopoverPanel
                 transition
-                className='absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
+                className='absolute -left-8 top-full mt-3 w-screen max-w-md overflow-hidden rounded-3xl z-40  bg-current     shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
               >
                 <div className='p-4'>
                   {products.map((item) => (

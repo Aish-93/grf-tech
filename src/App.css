@@ -93,9 +93,9 @@
     background: linear-gradient(90deg, rgba(36, 136, 173, 1) 4%, rgba(17, 71, 91, 1) 7%, rgba(12, 55, 71, 1) 9%, rgba(13, 10, 55, 1) 17%, rgba(12, 35, 67, 1) 28%, rgba(4, 14, 57, 1) 41%, rgba(5, 21, 67, 1) 53%, rgba(5, 25, 72, 1) 59%, rgba(6, 30, 79, 1) 67%, rgba(11, 42, 100, 1) 71%, rgba(10, 40, 97, 1) 72%, rgba(6, 35, 86, 1) 80%, rgba(9, 60, 121, 1) 92%, rgba(12, 62, 122, 1) 92%, rgba(8, 79, 138, 1) 95%, rgba(11, 120, 165, 1) 97%, rgba(0, 212, 255, 1) 100%);; */
 width:70vw;
 }
-.counter{
-  /* border: 1px solid pink; */
-}
+/* .counter{
+  border: 1px solid pink;
+} */
 
 .order-first{
   font-weight: 700;
@@ -109,4 +109,38 @@ width:70vw;
 
 .word-card{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+/* 3D Effect and hover styling */
+.word-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.word-card:hover {
+  transform: translateY(-10px) rotateX(5deg) rotateY(5deg);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.word-card img {
+  transition: transform 0.3s ease;
+}
+
+.word-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Ensure that the parent container has perspective */
+.bg-white {
+  perspective: 1500px;
+}
+
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 10px rgba(0, 204, 255, 0.8), 0 0 20px rgba(0, 204, 255, 0.6);
 }

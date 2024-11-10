@@ -4,7 +4,7 @@ import './Faqs.css';
 
 const Faqs = () => {
   return (
-    <div>
+    <div className='p-20'>
       <h2 className='faq-heading'>Frequently Asked Questions</h2>
       <Accordion className='faq-acc mt-5' flush>
         <Accordion.Item eventKey='0'>

@@ -1,26 +1,35 @@
 import React, { useEffect, useState } from 'react';
+import useIntervalCounter from './useIntervalCounter';
 
-const stats = [
-  { id: 1, name: 'Years of Experience', value: '10+' },
-  { id: 2, name: 'Students were trained', value: '500+' },
-  { id: 3, name: 'Projects done', value: '50+' },
-];
+
 const Stats = () => {
-  const [count, setCount] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCount((prev) => {
-        if (prev >= 500) {
-          clearInterval(interval);
-          return prev;
-        }
-        return prev + 1;
-      });
+
+    const count5 = useIntervalCounter(0,10,500);
+    const count10 = useIntervalCounter(0,500,10);
+    const count50 = useIntervalCounter(0,80,50);
+
+    const stats = [
+        { id: 1, name: 'Years of Experience', value: count10 + "+" },
+        { id: 2, name: 'Students were trained', value:  count5 + "+" },
+        { id: 3, name: 'Projects done', value: count50 + "+" },
+      ];
+//   const [count, setCount] = useState(0);
+
+//   useEffect(() => {
+//     const interval = setInterval(() => {
+//       setCount((prev) => {
+//         if (prev >= 500) {
+//           clearInterval(interval);
+//           return prev;
+//         }
+//         return prev + 1;
+//       });
       
-    },50);
-    return () => clearInterval(interval);
-  },[]);
+//     },50);
+//     return () => clearInterval(interval);
+//   },[]);
+
   return (
     <div className='counter-section mx-auto rounded-3xl bg-blue-900 sm:py-16'>
       <div className='mx-auto max-w-6xl px-5 lg:px-8'>
@@ -32,7 +41,7 @@ const Stats = () => {
             >
               <dt className='stats-text text-base/7 text-gray-800 "Roboto Serif", sans-serif'>
                 {stat.name}
-                {count}
+                
               </dt>
               <dd className='order-first text-3xl font-semibold tracking-tight text-gray-800 sm:text-5xl'>
                 {stat.value}

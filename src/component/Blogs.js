@@ -20,10 +20,10 @@ const posts = [
   },
   {
     id: 2,
-    title: 'Value your time and money',
+    title: 'We value your time and money',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'We provide foundation to launch you into real world Tech-job scenarios making you ahead of your peers',
     date: 'Jun 09, 2020',
     datetime: '2020-06-09',
     category: { title: 'Pricing', href: '#' },
@@ -37,10 +37,10 @@ const posts = [
   },
   {
     id: 3,
-    title: 'Improve your customer experience',
+    title: 'Improve your coding experience',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Code with best pratices from the best in class mentors creating the diffrence in your CV ',
     date: 'Jan 7, 2024',
     datetime: '2020-01-07',
     category: { title: 'Services', href: '#' },
@@ -58,7 +58,7 @@ function Blogs() {
   return (
     <div className='bg-white py-24 sm:py-32'>
       <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-        <div className='mx-auto max-w-2xl lg:mx-0'>
+        <div className='mx-auto max-w-2xl lg:mx-0 '>
           <h2 className='text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl'>
             Our Mission
           </h2>
@@ -70,7 +70,7 @@ function Blogs() {
           {posts.map((post) => (
             <article
               key={post.id}
-              className='word-card p-2 flex max-w-xl flex-col items-start justify-between'
+              className=' rounded-2xl shadow-2xl word-card p-2 flex max-w-xl flex-col items-start justify-between'
             >
               <div className='flex items-center gap-x-4 text-xs'>
                 {/* <time dateTime={post.datetime} className='text-gray-500'>
