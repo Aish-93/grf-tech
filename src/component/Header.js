@@ -26,6 +26,7 @@ import {
   PlayCircleIcon,
 } from "@heroicons/react/20/solid";
 
+import logo from "../icons/logo.ico.jpeg"
 const products = [
   {
     name: "Analytics",
@@ -77,8 +78,9 @@ const Header = () => {
               <span className="sr-only">Your Company</span>
               <img
                 alt=""
-                src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                // src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600"
+                src={logo}
+                className="h-12 w-auto"
               />
             </a>
           </div>
