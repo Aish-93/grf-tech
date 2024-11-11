@@ -2,7 +2,7 @@ import React from 'react';
 import './Course.css';
 const CourseDetail = () => {
   return (
-    <div className='mt-5'>
+    <div className=''>
       <div>
         <div className='banner-course'></div>
         <h2 className='course-detail-heading mt-5'>HOW IT WORKS</h2>
