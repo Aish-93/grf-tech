@@ -1,6 +1,6 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 // import { BannerLayer } from "react-scroll-parallax/dist/components/ParallaxBanner/types";
-
+import newbg from "../icons/newbg.jpg"
 import "../App.css"
 const links = [
     { name: 'Interactive Courses', href: '#' },
@@ -16,8 +16,8 @@ const links = [
   ]
 export const AdvancedBannerTop = () => {
   const background = {
-    image:
-      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
+    image:newbg,
+    //   "https://s3-us-west-2.amazonaws.com/s.cdpn.io/105988/banner-background.jpg",
     translateY: [0, 50],
     opacity: [1, 0.3],
     scale: [1.05, 1, "easeOutCubic"],
@@ -30,13 +30,13 @@ export const AdvancedBannerTop = () => {
     shouldAlwaysCompleteAnimation: true,
     expanded: false,
     children: (
-      <div className="inset center">
+      <div className="inset center z-10">
         <div className="headline white">
         <div className="relative isolate overflow-hidden bg-transparent py-8 sm:pb-32 ">
           
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl lg:mx-0">
-              <h2 className="text-5xl font-semibold tracking-tight text-gray-50 sm:text-7xl">Why Choose Us?</h2>
+              <h2 className="text-5xl font-semibold tracking-tight text-gray-50 sm:text-7xl text-glow-blue">Why Choose Us?</h2>
               <p className="mt-8 text-pretty text-lg font-medium text-gray-50 sm:text-xl/8">
               Our courses are priced to ensure everyone can access quality education without overspending.
               Enjoy a wide range of courses, tutorials, and materials all in one place, eliminating the need for multiple subscriptions.

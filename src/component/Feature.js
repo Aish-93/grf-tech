@@ -52,7 +52,7 @@ export default function Features() {
             Deploy faster
           </h2>
           <p className='mt-2 text-pretty text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl lg:text-balance'>
-            Everything you need to deploy your app
+            Everything you need to code your app
           </p>
           <h3 className='mt-6 text-lg/8 text-gray-600'>
             Unlock Your Potential with Our Coding and Learning Platform!
