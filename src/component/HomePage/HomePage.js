@@ -11,24 +11,25 @@ import Blogs from '../Blogs';
 import Faqs from '../Faqs';
 import Footer from '../Footer';
 import Carousel from '../Carousel';
-
+import ReachOut from '../ReachOut/ReachOut';
+import Banner from '../Banner/Banner';
 
 const HomePage = () => {
   return (
     <div>
       <Header />
-      
-      <AdvancedBannerTop />
+      <Banner />
+      {/* <AdvancedBannerTop /> */}
       <Features />
       <Stats />
       <Hcards />
       <Course />
-      <Carousel/>
+      <Carousel />
       {/* <Card /> */}
       <Blogs />
       <Faqs />
       <Team />
-      
+      <ReachOut />
       <Footer />
     </div>
   );

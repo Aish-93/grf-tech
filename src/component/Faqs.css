@@ -1,19 +1,24 @@
-.faq-heading{
-    font-size: 38px;
-    font-weight: 700;
-
+.faqs {
+  width: 100%;
 }
 
-.faq-acc{
-    width: 60vw;
-    margin-left: auto;
-    margin-right: auto;
+.faq-heading {
+  font-size: 38px;
+  font-weight: 700;
+  width: 60%;
+  /* border: 1px solid black; */
+}
+
+.faq-acc {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 .accordion-button:focus {
-    box-shadow: none;
-    border-color: rgba(0, 0, 0, .125);
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
 }
 
-.accordion-button:not(.collapsed){
-    background-color: #effaff;
+.accordion-button:not(.collapsed) {
+  background-color: #effaff;
 }

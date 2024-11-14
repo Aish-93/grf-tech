@@ -9,7 +9,7 @@
   /* Change this to whatever width you want. */
   padding-top: 10px;
   /*This creates some space between the element and the border. */
-  border-bottom: 5px solid rgb(168, 82, 7);
+  border-bottom: 5px solid #fff;
   /* This creates the border. Replace black with whatever color you want. */
 }
 
@@ -24,80 +24,84 @@
   /* Change this to whatever width you want. */
   padding-top: 10px;
   /*This creates some space between the element and the border. */
-  border-bottom: 5px solid rgb(168, 82, 7);
+  border-bottom: 5px solid #fff;
   /* This creates the border. Replace black with whatever color you want. */
 }
 
-.footer-container {
-  margin-top: 350px;
-}
-
-/* .pimg1 {
+.pimg1 {
   position: relative;
   width: 97vw;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   min-height: 300px;
   border-radius: 20px;
-} */
+}
 
-/* .pimg1::before {
+.pimg1::before {
   border-radius: 20px;
   content: '';
-  background: url('../icons/giLogo.jpg') no-repeat fixed center;
+  /* background-image: url('../../icons/people.jpg'); */
+  background: url('../../icons/people.jpg') no-repeat fixed center;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  filter: brightness(50%);
+  filter: brightness(90%);
   z-index: -1;
-} */
-
-.Intro {
-  color: white;
 }
 
-/* footer */
-.footer-block {
-  /* border-top: 5px solid rgb(117, 49, 9); */
-  /* display: inline-block; */
-  color: #fff;
+.input-box {
+  border-radius: 8px;
+}
+
+.button-26 {
+  appearance: button;
+  background-color: #0078d0;
+  border: 1px solid #0078d0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Graphik, -apple-system, system-ui, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  /* line-height: 1.15; */
+  overflow: visible;
+  /* padding: 12px 16px; */
   position: relative;
-  /* background: url('../icons/giLogo.jpg') no-repeat fixed center; */
-  /* background-position: center; */
-  /* Center the image */
-  /* background-repeat: no-repeat; */
-  /* Do not repeat the image */
-  /* background-size: cover; */
-  /* Resize the background image to cover the entire container */
-  padding: 10px;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  /* width: fit-content; */
 }
 
-.footer-block:before {
-  content: '';
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
-  background: rgb(17, 24, 39);
-
-  transition: all 0.2s linear;
+.button-26:disabled {
+  opacity: 0.5;
 }
 
-/* .footer-block:hover:before {
-  background: none;
-} */
-
-.footer-block-txt {
-  position: relative;
+.button-26:focus {
+  outline: 0;
 }
 
-.ul {
-  position: relative;
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+.button-26:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
+}
+
+.button-26:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
+}
+
+.need-help {
+  color: #1c0e0e;
+  /* color: rgb(245, 124, 18); */
+}
+
+.need-help-heading {
+  font-size: 59px;
 }

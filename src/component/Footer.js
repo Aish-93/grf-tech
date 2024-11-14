@@ -93,12 +93,12 @@ function Footer() {
                 Contact Us
               </h5>
 
-              <h5
+              {/* <h5
                 className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 Blogs
-              </h5>
+              </h5> */}
               <h5
                 className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
@@ -107,7 +107,7 @@ function Footer() {
               </h5>
             </div>
 
-            <div className='my-5 footer-links'>
+            {/* <div className='my-5 footer-links'>
               <h4
                 className='text-start footer-block-txt pb-1 page-title'
                 style={{ fontSize: '22px' }}
@@ -132,7 +132,7 @@ function Footer() {
               >
                 Terms & Conditions
               </h5>
-            </div>
+            </div> */}
             <div className='my-5 footer-links'>
               <h4
                 className='text-start footer-block-txt pb-1 page-title'

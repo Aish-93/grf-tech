@@ -14,7 +14,7 @@ import {
   faNode,
   faBattleNet,
   faHtml5,
-  faCss3
+  faCss3,
 } from '@fortawesome/free-brands-svg-icons';
 const features = [
   {

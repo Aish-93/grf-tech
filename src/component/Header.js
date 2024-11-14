@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+
 import {
   Dialog,
   DialogPanel,
@@ -69,7 +70,7 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div>
+    <div className='header'>
       <header className='bg-white'>
         <nav
           aria-label='Global'

@@ -1,147 +1,200 @@
 .course-banner {
-    height: 70vh;
-    width: 100vw;
-    color: #fff;
-    font-weight: 700;
-    background-size: cover;
-    background-image: url('../icons/priceE.png');
-    background-repeat: no-repeat;
-    bottom: 0;
-    padding-right: 20vw;
-    /* z-index: -1; */
+  height: 70vh;
+  width: 100vw;
+  color: #211f1f;
+  background-color: E6F9FF;
+  font-weight: 700;
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 0;
+  padding-right: 20vw;
+  /* z-index: -1; */
+  border: 1px solid rgb(196, 194, 194);
 }
 
 .banner-heading {
-    font-size: 42px;
-    font-weight: 700;
-    margin-top: 40px;
-
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .btn-container-banner {
-    width: 35vw;
-    margin-top: 6vw;
+  width: 26vw;
+  margin-top: 4vw;
 }
 
 .banner-text {
-    margin-top: 5vw;
-    font-size: 24px;
+  margin-top: 4vw;
+  font-size: 24px;
 }
 
 .banner-container {
-    width: 100vw;
+  width: 100vw;
 }
 
 .banner-left {
-    width: 60%;
-    padding-left: 15vw;
+  width: 50%;
+  padding-left: 15vw;
 }
 
-.join-btn {
-    width: 15vw;
-    font-size: larger;
-    font-weight: 600;
+.join-btn1,
+.join-btn2 {
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+  border-radius: 22px;
+}
+.join-btn1:hover {
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border: none;
+}
+.join-btn2:hover {
+  width: 12vw;
+  font-size: larger;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(67, 67, 67);
+  border: none;
 }
 
 .banner-right {
-    width: 40%;
-    height: 31vw;
+  width: 50%;
+  height: 31vw;
 }
 
 .banner-inside {
-    margin-top: 20vh;
-    height: 30vh;
-    width: 15vw;
-    padding-top: 50px;
-    margin-left: 9vw;
+  margin-top: 20vh;
+  height: 30vh;
+  width: 15vw;
+  padding-top: 50px;
+  margin-left: 9vw;
 }
 
 .actual-price {
-    font-size: 26px;
-    text-decoration: line-through;
-    color: rgb(50, 47, 47);
+  font-size: 26px;
+  text-decoration: line-through;
+  color: rgb(91, 90, 90);
 }
 
 .offered-price {
-    font-size: 44px;
-    font-weight: 700;
+  font-size: 44px;
+  font-weight: 700;
 }
 
 /* CourseDetail CSS */
-.banner-course{
-    background-color: #424ECF;
-    height: 45vh;
+.banner-course {
+  /* background-color: #4c55b1; */
+  width: 100%;
+  /* height: 45vh; */
 }
 .course-detail-heading {
-    /* border: 1px solid black; */
-    width: 220px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #effaff;
-    color: rgb(9, 8, 67);
-    font-size: 22px;
-    font-weight: 700;
-    border-radius: 24px;
-    padding-top: 10px;
+  /* border: 1px solid black; */
+  width: 250px;
+  height: 50px;
+  background-color: #effaff;
+  color: rgb(9, 8, 67);
+  font-size: 22px;
+  font-weight: 700;
+  border-radius: 24px;
+  padding-top: 10px;
 }
 
 .daywise-course-container {
-    width: 85vw;
-    margin-left: auto;
-    margin-right: auto;
+  width: 85vw;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
 }
 
 .course-detail-card {
-
-    width: 26vw;
-    /* border: 1px solid black; */
-    height: 50vh;
-    background-color: #F4F7FE;
-    border-radius: 15px;
+  width: 26vw;
+  height: 70vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 15px;
+}
+.course-detail-card:hover {
+  transform: scale(1.05);
+  transition: calc(1.5);
 }
 
 .daywise-text {
-    /* margin-bottom: var(--wp--preset--spacing--30); */
-    font-style: normal;
-    /* font-weight: 500; */
-    font-optical-sizing: auto;
+  font-style: normal;
+  /* font-optical-sizing: auto; */
 }
 
 .detail-btn1 {
-    width: 24%;
-    border: 2px solid #424ECF;
-    color: #424ECF;
-    border-radius: 22px;
-    margin-right: 24vw;
-    border-style: solid;
-    padding-left: var(--wp--preset--spacing--50);
+  width: 25%;
+  /* border: 2px solid #424ecf; */
+  border: 2px solid rgb(103, 64, 41);
+  /* color: #424ecf; */
+  color: rgb(103, 64, 41);
+  font-weight: 600;
+  border-radius: 22px;
+  margin-right: 24vw;
+  border-style: solid;
+  padding-left: var(--wp--preset--spacing--50);
 }
 
 .detail-btn2 {
-    width: 24vw;
-    height: 35px;
-    color: #fff;
-    font-weight: 600;
-    border-radius: 8px;
-    margin-right: 15px;
-    border-style: solid;
-    font-family: "Montserrat", sans-serif;
-    background-color: rgb(230, 91, 0);
-margin-top:80px;
+  width: 24vw;
+  height: 35px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-right: 15px;
+  border-style: solid;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(103, 64, 41);
+  margin-top: 15px;
+  cursor: pointer;
 }
 
+.detail-btn3 {
+  width: 8vw;
+  font-size: 18px;
+  color: gray;
+  margin-left: 16vw;
+  border: none;
+  margin-top: 80px;
+  text-decoration: underline;
+}
+
+/* .module-modal {
+  width: 100vw;
+  height: 50vh;
+} */
+
+.custom-modal {
+  max-width: 100vw; /* Customize the width */
+  max-height: 50vh; /* Customize the height */
+  /* line-height: 1.6; */
+}
+
+.custom-modal .modal-body {
+  overflow-y: auto; /* Allow scrolling if content overflows */
+}
+.modal-body ul li {
+  border: 1px solid gray;
+}
 .daywise-topic {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Montserrat", sans-serif;
-    /* padding: 30px; */
-    font-optical-sizing: auto;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  /* padding: 30px; */
+  font-optical-sizing: auto;
 }
 
 /* CSS for Stack.js */
-.enroll-form{
-    width: 80vw;
-    border: 2px solid gray;
-
+.enroll-form {
+  width: 80vw;
+  border: 2px solid gray;
 }

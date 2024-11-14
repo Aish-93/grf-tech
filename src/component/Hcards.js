@@ -3,7 +3,7 @@ import { Hcard } from './Constant';
 
 const Hcards = () => {
   return (
-    <div className='mt-5 grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 px-16'>
+    <div className='mt-5 grid gap-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 px-6 mx-5'>
       {Hcard.map((item, index) => (
         <a
           key={index}
@@ -16,7 +16,7 @@ const Hcards = () => {
             alt={item.title}
           />
           <div className='flex flex-col justify-between p-4 leading-normal space-y-3'>
-            <h5 className='text-2xl font-semibold tracking-tight text-gray-900 dark:text-white group-hover:text-indigo-600 transition-colors duration-300'>
+            <h5 className='text-2xl font-semibold tracking-tight text-gray-900 group-hover:text-indigo-600 transition-colors duration-300'>
               {item.title}
             </h5>
             <p className='text-gray-700 dark:text-gray-400 group-hover:text-gray-900 transition-colors duration-300'>

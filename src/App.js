@@ -8,7 +8,7 @@ import HomePage from './component/HomePage/HomePage';
 function App() {
   return (
     <ParallaxProvider>
-      <div className='App'>
+      <div className=''>
         <Router>
           <Routes>
             <Route exact path='/' element={<HomePage />} />

@@ -37,29 +37,30 @@
   }
 }
 
-.card-livspace{
+.card-livspace {
   border: 1px solid rgb(242, 236, 236);
   width: 23vw;
-  border-radius:15px ;
+  border-radius: 15px;
 }
-.card-livspace:hover{
+.card-livspace:hover {
   cursor: pointer;
   border: none;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transform: scale(1.02);
 }
 
-.card-img-liv{
+.card-img-liv {
   width: 100%;
-  height:220px;
+  height: 220px;
   object-fit: cover;
-  border-radius:15px 15px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
 }
 
-.listing a{
- padding: 40px;
- font-weight: bolder;
- 
+.listing a {
+  padding: 40px;
+  font-weight: bolder;
 }
 
 .inset {
@@ -87,27 +88,23 @@
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
 /* Stats.js  */
-.counter-section{
-  background-color: #EEFAFF;
-  /* background: rgb(36, 136, 173);
-    background: linear-gradient(90deg, rgba(36, 136, 173, 1) 4%, rgba(17, 71, 91, 1) 7%, rgba(12, 55, 71, 1) 9%, rgba(13, 10, 55, 1) 17%, rgba(12, 35, 67, 1) 28%, rgba(4, 14, 57, 1) 41%, rgba(5, 21, 67, 1) 53%, rgba(5, 25, 72, 1) 59%, rgba(6, 30, 79, 1) 67%, rgba(11, 42, 100, 1) 71%, rgba(10, 40, 97, 1) 72%, rgba(6, 35, 86, 1) 80%, rgba(9, 60, 121, 1) 92%, rgba(12, 62, 122, 1) 92%, rgba(8, 79, 138, 1) 95%, rgba(11, 120, 165, 1) 97%, rgba(0, 212, 255, 1) 100%);; */
-width:70vw;
+.counter-section {
+  /* background-color: #EEFAFF; */
+  background-color: #fff;
+  width: 90vw;
 }
-/* .counter{
-  border: 1px solid pink;
-} */
 
-.order-first{
+.order-first {
   font-weight: 700;
 }
 
-.stats-text{
+.stats-text {
   font-size: 20px;
 }
 
 /* CSS FOR Blog.js */
 
-.word-card{
+.word-card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -132,15 +129,33 @@ width:70vw;
 }
 
 /* Ensure that the parent container has perspective */
-.bg-white {
+/* .bg-white {
   perspective: 1500px;
-}
+} */
 
-
-.text-glow {
+/* .text-glow {
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
 }
 
 .text-glow-blue {
   text-shadow: 0 0 10px rgba(0, 204, 255, 0.8), 0 0 20px rgba(0, 204, 255, 0.6);
+} */
+
+.header {
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.banner-course {
+  background: url('file:///C:/Users/aakrt/Downloads/Untitled%20design%20(3).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  filter: brightness(60%);
+}
+/* Carousel css */
+.carousel-container {
+  background-image: url('./icons/bgimg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
