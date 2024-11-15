@@ -1,21 +1,23 @@
 .course-banner {
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   color: #211f1f;
-  background-color: E6F9FF;
+  background-color: #fff;
   font-weight: 700;
   background-size: cover;
   background-repeat: no-repeat;
   bottom: 0;
   padding-right: 20vw;
-  /* z-index: -1; */
-  border: 1px solid rgb(196, 194, 194);
+  z-index: -1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  /* border: 1px solid rgb(196, 194, 194); */
 }
 
 .banner-heading {
   font-size: 48px;
   font-weight: 700;
   margin-top: 50px;
+  color: rgb(86, 83, 83);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -26,7 +28,8 @@
 
 .banner-text {
   margin-top: 4vw;
-  font-size: 24px;
+  font-size: 22px;
+  color: #0866ff;
 }
 
 .banner-container {
@@ -44,8 +47,8 @@
   font-size: larger;
   font-weight: 600;
   background-color: #fff;
-  color: black;
-  border: 1px solid black;
+  color: #0866ff;
+  border: 1px solid #0866ff;
   border-radius: 22px;
 }
 .join-btn1:hover {
@@ -53,7 +56,7 @@
   font-size: larger;
   font-weight: 600;
   color: white;
-  background-color: rgb(67, 67, 67);
+  background-color:#0866ff;
   border: none;
 }
 .join-btn2:hover {
@@ -61,7 +64,8 @@
   font-size: larger;
   font-weight: 600;
   color: white;
-  background-color: rgb(67, 67, 67);
+  /* background-color:#0866ff; */
+  background-color: #0866ff;
   border: none;
 }
 
@@ -81,7 +85,7 @@
 .actual-price {
   font-size: 26px;
   text-decoration: line-through;
-  color: rgb(91, 90, 90);
+  color: rgb(133, 130, 130);
 }
 
 .offered-price {
@@ -116,14 +120,14 @@
 
 .course-detail-card {
   width: 26vw;
-  height: 70vh;
+  height: 92vh;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 15px;
 }
 .course-detail-card:hover {
-  transform: scale(1.05);
-  transition: calc(1.5);
+  transform: scale(1.02);
+  transition: calc(1.2);
 }
 
 .daywise-text {
@@ -134,9 +138,11 @@
 .detail-btn1 {
   width: 25%;
   /* border: 2px solid #424ecf; */
-  border: 2px solid rgb(103, 64, 41);
+  border: 2px solid #0866ff;
+  /* border: 2px solid rgb(103, 64, 41); */
   /* color: #424ecf; */
-  color: rgb(103, 64, 41);
+  color: #0866ff;
+  /* color: rgb(103, 64, 41); */
   font-weight: 600;
   border-radius: 22px;
   margin-right: 24vw;
@@ -153,7 +159,8 @@
   margin-right: 15px;
   border-style: solid;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(103, 64, 41);
+  /* background-color: rgb(103, 64, 41); */
+  background-color: #0866ff;
   margin-top: 15px;
   cursor: pointer;
 }

@@ -13,23 +13,49 @@ import Footer from '../Footer';
 import Carousel from '../Carousel';
 import ReachOut from '../ReachOut/ReachOut';
 import Banner from '../Banner/Banner';
+import Company from '../Companies/Company';
+import Quote from '../Carousel/Quote';
+import Training from '../OfferingTraining/Training';
+// import Typing from '../Typing/Typing';
+import { Typing } from '../Typing/Typing';
 
 const HomePage = () => {
   return (
     <div>
       <Header />
+
       <Banner />
+      <Training />
       {/* <AdvancedBannerTop /> */}
       <Features />
       <Stats />
-      <Hcards />
+      <Quote />
+      {/* <Hcards /> */}
       <Course />
-      <Carousel />
+      <Company />
+
+      {/* <Carousel /> */}
       {/* <Card /> */}
-      <Blogs />
+      {/* <Blogs /> */}
       <Faqs />
       <Team />
       <ReachOut />
+      <Typing
+        heading='Things for learn:'
+        dataText={[
+          'Vinyl swag.',
+          'Seitan jianbing.',
+          'Enamel pin meditation.',
+          'Denim seitan.',
+          'Semiotics austin.',
+          'Sriracha fanny pack.',
+          'Vape raw dreamcatcher.',
+          'Fam blog.',
+          '90s church-key.',
+          'Pabst distillery.',
+          'Street art unicorn.',
+        ]}
+      />
       <Footer />
     </div>
   );

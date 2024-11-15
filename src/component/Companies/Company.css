@@ -1,0 +1,33 @@
+.slider-container {
+  width: 80vw;
+  height: 42vh;
+  justify-content: space-between;
+}
+.card-slick {
+  height: 16vw;
+  display: flex !important;
+  justify-content: center;
+}
+.slick-img-container {
+  /* border: 1px solid rgb(41, 39, 39); */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  width: 14vw;
+  height: 14vw;
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  /* padding-top: 8vh; */
+}
+.slick-image {
+  object-fit: contain;
+  height: 12vh;
+  width: 10vw;
+}
+.slick-prev {
+  /* z-index: 1; */
+  margin-right: 2%;
+}
+.slick-next {
+  z-index: 1;
+}

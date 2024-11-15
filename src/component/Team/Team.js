@@ -4,7 +4,7 @@ import './Team.css';
 const Team = () => {
   return (
     <div className='mb-5'>
-      <h4 className='team-heading text-center mb-4'>MEET THE TEAM</h4>
+      <h4 className='team-heading text-center mb-4'>Our Team</h4>
       <div className='team-container d-flex'>
         <div className='team-card mt-5'>
           <img

@@ -5,7 +5,7 @@ import F from '../icons/faq1.jpg';
 
 const Faqs = () => {
   return (
-    <div className='faqs p-20'>
+    <div className='faqs p-10'>
       <h2 className='faq-heading mx-auto text-center'>
         Frequently Asked Questions
       </h2>

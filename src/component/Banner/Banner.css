@@ -1,12 +1,15 @@
 .quote-img-banner{
    
-    object-fit: cover;
     height: 100%;
        width: 100%;
     object-fit: cover;
+    /* background: url('./../../icons/quote.png'); */
 }
 
 .banner-img{
 height: 80vh;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* object-fit: cover;
+    background: url('./../../icons/quote.png'); */
 }

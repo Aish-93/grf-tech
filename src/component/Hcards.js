@@ -3,7 +3,7 @@ import { Hcard } from './Constant';
 
 const Hcards = () => {
   return (
-    <div className='mt-5 grid gap-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 px-6 mx-5'>
+    <div className='mt-5 grid gap-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 px-12 mx-5'>
       {Hcard.map((item, index) => (
         <a
           key={index}

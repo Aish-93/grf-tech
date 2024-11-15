@@ -1,0 +1,11 @@
+.quote-container {
+  width: 100vw;
+  height: 32vw;
+  background: url('../../icons/bgimg.png');
+  background-size: cover;
+}
+.right-side-quote {
+  margin-left: 30vw;
+}
+.quote-text1 {
+}

@@ -8,10 +8,10 @@ const Course = () => {
   let navigate = useNavigate();
 
   return (
-    <div className='course-banner mt-5 pt-2'>
+    <div className='course-banner py-auto'>
       <div className='banner-container d-flex'>
         <div className='banner-left'>
-          <h1 className='banner-heading text-start'>Graphene InfoTech</h1>
+          {/* <h1 className='banner-heading text-start'>Graphene InfoTech</h1> */}
           {/* <p className='mt-2'> Crafting the Future of Digital Innovation</p> */}
           <p className='banner-text text-start'>
             Unlock new career opportunities.
@@ -42,9 +42,9 @@ const Course = () => {
         </div>
         <div className='banner-right mx-5'>
           <img
-            src={A}
+            src='https://img.freepik.com/free-vector/tiny-programmers-big-laptop-writing-script-coders-app-developers-with-computers-flat-vector-illustration-programming-engineering-software-development-concept-banner-landing-web-page_74855-25360.jpg?uid=R139239883&ga=GA1.1.1110932627.1730523152&semt=ais_hybrid'
             alt='amico'
-            style={{ width: '32vw', height: '30vw', objectFit: 'contain' }}
+            style={{ width: '32vw', height: '20vw', objectFit: 'contain' }}
           />
           {/* <div className='banner-inside'>
             <p className='actual-price'>

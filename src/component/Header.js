@@ -99,7 +99,7 @@ const Header = () => {
           </div>
           <PopoverGroup className='hidden lg:flex lg:gap-x-12'>
             <Popover className='relative'>
-              <PopoverButton className='flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900'>
+              <PopoverButton className='flex items-center gap-x-1 text-sm/2 font-semibold text-gray-900'>
                 Product
                 <ChevronDownIcon
                   aria-hidden='true'
@@ -109,7 +109,7 @@ const Header = () => {
 
               <PopoverPanel
                 transition
-                className='absolute -left-8 top-full mt-3 w-screen max-w-md overflow-hidden rounded-3xl z-40  bg-current     shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
+                className='absolute -left-8 top-full mt-3 w-screen max-w-md overflow-hidden rounded-3xl z-40  bg-current shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
               >
                 <div className='p-4'>
                   {products.map((item) => (
@@ -154,16 +154,16 @@ const Header = () => {
               </PopoverPanel>
             </Popover>
 
-            <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+            <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Features
             </a>
-            <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+            <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Coding Test
             </a>
-            <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+            <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Online videos
             </a>
-            <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+            <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Submit a doubt
             </a>
           </PopoverGroup>
