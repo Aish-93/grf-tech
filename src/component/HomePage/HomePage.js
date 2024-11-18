@@ -18,6 +18,7 @@ import Quote from '../Carousel/Quote';
 import Training from '../OfferingTraining/Training';
 // import Typing from '../Typing/Typing';
 import { Typing } from '../Typing/Typing';
+import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 
 const HomePage = () => {
   return (
@@ -27,11 +28,12 @@ const HomePage = () => {
       <Banner />
       <Training />
       {/* <AdvancedBannerTop /> */}
-      <Features />
+      {/* <Features /> */}
       <Stats />
+      <WhyChooseUs />
       <Quote />
       {/* <Hcards /> */}
-      <Course />
+      {/* <Course /> */}
       <Company />
 
       {/* <Carousel /> */}

@@ -14,6 +14,7 @@ const CourseDetail = () => {
   return (
     <div className='mb-5'>
       <div>
+        <h2 className='banner-course-heading w-90'>REACT COURSE </h2>
         <div className='banner-course'></div>
         {/* <h2 className='course-detail-heading mt-5 mx-auto  text-center'>
           HOW IT WORKS

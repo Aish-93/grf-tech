@@ -104,6 +104,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={B}
               alt='card-slick-img2'
+              style={{ width: '13vw' }}
             />
           </div>
         </div>
@@ -113,6 +114,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={C}
               alt='card-slick-img3'
+              style={{ width: '13vw' }}
             />
           </div>
         </div>
@@ -122,6 +124,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={D}
               alt='card-slick-img4'
+              style={{ width: '10vw', height: '8vw' }}
             />
           </div>
         </div>
@@ -140,6 +143,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={F}
               alt='card-slick-img6'
+              style={{ width: '12vw', height: '10vw' }}
             />
           </div>
         </div>
@@ -149,6 +153,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={G}
               alt='card-slick-img7'
+              style={{ width: '10vw', height: '8vw' }}
             />
           </div>
         </div>
@@ -158,6 +163,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={H}
               alt='card-slick-img8'
+              style={{ width: '10vw', height: '8vw' }}
             />
           </div>
         </div>
@@ -167,6 +173,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={I}
               alt='card-slick-img9'
+              style={{ width: '12vw', height: '10vw' }}
             />
           </div>
         </div>
@@ -176,6 +183,7 @@ const Company = () => {
               className='slick-image mx-auto my-auto'
               src={J}
               alt='card-slick-img10'
+              style={{ width: '9vw', height: '9vw' }}
             />
           </div>
         </div>

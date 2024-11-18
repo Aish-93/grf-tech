@@ -9,7 +9,8 @@
   bottom: 0;
   padding-right: 20vw;
   z-index: -1;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   /* border: 1px solid rgb(196, 194, 194); */
 }
 
@@ -19,6 +20,43 @@
   margin-top: 50px;
   color: rgb(86, 83, 83);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* .banner-course-heading {
+  color: #fff;
+  font-size: 24px;
+} */
+
+.banner-course {
+  /* background: url('file:///C:/Users/aakrt/Downloads/Untitled%20design%20(3).png'); */
+  background: url('C:\Users\aakrt\OneDrive\Desktop\grpn-infotech\grf-tech\src\icons\grouppic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 70vh;
+  filter: brightness(60%);
+}
+.banner-course-heading {
+  color: #fff;
+  position: absolute; /* Ensure it sits above the ::before overlay */
+  z-index: 1;
+  margin-top: 40vh;
+  font-size: 65px;
+  font-weight: 700;
+  margin-left: 32vw;
+
+  /* mix-blend-mode: normal; */
+  /* background-color: transparent; */
+}
+.banner-course::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(62, 91, 122, 0.6);
+  pointer-events: none; /* To ensure the content remains interactive if necessary */
 }
 
 .btn-container-banner {
@@ -56,7 +94,7 @@
   font-size: larger;
   font-weight: 600;
   color: white;
-  background-color:#0866ff;
+  background-color: #0866ff;
   border: none;
 }
 .join-btn2:hover {

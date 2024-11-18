@@ -1,0 +1,28 @@
+.container-top-right {
+  width: 50%;
+  height: 40vh;
+  /* border: 1px solid gray; */
+  padding-left: 3vw;
+}
+.container-top-left {
+  width: 50%;
+  /* border: 1px solid gray; */
+}
+
+.our-best {
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+}
+.para-our-best {
+  color: rgb(71, 71, 71);
+  margin-top: 25px;
+}
+
+.btn-our-best {
+  width: 90px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #2563eb;
+  color: white;
+}

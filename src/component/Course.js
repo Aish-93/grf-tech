@@ -2,7 +2,7 @@ import React from 'react';
 import './Course.css';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
-import A from '../icons/freepik1.jpg';
+// import A from '../icons/freepik1.jpg';
 
 const Course = () => {
   let navigate = useNavigate();
@@ -16,7 +16,9 @@ const Course = () => {
           <p className='banner-text text-start'>
             Unlock new career opportunities.
             <br />
-            Get started with Graphene InfoTech for just{' '}
+            Get started with Graphene InfoTech
+            <br />
+            for just <br />
             <span className='offered-price'>₹9,999 </span>
             <span className='actual-price'>
               <s>₹19,999</s>
