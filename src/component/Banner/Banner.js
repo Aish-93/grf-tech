@@ -1,5 +1,5 @@
 import React from 'react';
-import bannerquote from '../../icons/quote.png';
+import bannerquote from '../../icons/bannertech.png';
 import './Banner.css';
 
 const Banner = () => {

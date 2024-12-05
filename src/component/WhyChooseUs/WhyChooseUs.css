@@ -8,7 +8,21 @@
   width: 50%;
   /* border: 1px solid gray; */
 }
+.why-choose-us-container {
+  width: 18vw;
+  height: 40vh;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+.why-choose-us-container:hover {
+  width: 18vw;
+  height: 40vh;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.02);
+  transition: calc(1.05);
+}
 .our-best {
   width: 55px;
   height: 55px;

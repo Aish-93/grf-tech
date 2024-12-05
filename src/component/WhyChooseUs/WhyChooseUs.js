@@ -19,19 +19,17 @@ const WhyChooseUs = () => {
             <br /> from others?
           </h3>
           <p className='text-gray-700 text-sm p-1 mt-4'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing <br />
-            elit. Veritatis, beatae.
+            Discover the Difference — Join Us Today!
           </p>
           <button className='btn-our-best mt-4 text-sm'>Join Now</button>
         </div>
         <div className='container-top-left d-flex justify-between'>
           <div
-            className='p-3 rounded-xl'
-            style={{
-              //  border: '1px solid gray',
-              boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-              width: '18vw',
-            }}
+            className='why-choose-us-container p-3 rounded-xl'
+            // style={{
+            //   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+            //   width: '18vw',
+            // }}
           >
             <div
               className='our-best p-3'
@@ -51,13 +49,12 @@ const WhyChooseUs = () => {
             </p>
           </div>
           <div
-            className='p-3 rounded-xl'
-            style={{
-              // border: '1px solid gray',
-              boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-              width: '18vw',
-              backgroundColor: '#fff',
-            }}
+            className='why-choose-us-container p-3 rounded-xl'
+            // style={{
+            //   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+            //   width: '18vw',
+            //   backgroundColor: '#fff',
+            // }}
           >
             <div
               className='our-best p-3'
@@ -79,12 +76,9 @@ const WhyChooseUs = () => {
       </div>
       <div className='d-flex justify-between mx-auto' style={{ width: '75vw' }}>
         <div
-          className='p-3 rounded-xl'
+          className='why-choose-us-container p-3 rounded-xl'
           style={{
             marginLeft: '276px',
-            boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-            width: '18vw',
-            height: '40vh',
           }}
         >
           <div
@@ -114,7 +108,7 @@ const WhyChooseUs = () => {
         </div>
         <div className='container-top-left d-flex justify-between'>
           <div
-            className='p-3 rounded-xl'
+            className=' why-choose-us-container p-3 rounded-xl'
             style={{
               // border: '1px solid gray',
               boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
@@ -139,19 +133,18 @@ const WhyChooseUs = () => {
 
             <h4 className='font-bold mt-4'>Best Price</h4>
             <p className='para-our-best'>
-              We believe that quality education should be accessible to
-              everyone. That's why we offer our courses at competitive prices
-              without compromising on quality.
+              Quality education should be accessible to all, so we offer courses
+              at competitive prices without compromising quality.
             </p>
           </div>
           <div
-            className='p-3 rounded-xl'
-            style={{
-              width: '18vw',
-              height: '40vh',
-              backgroundColor: '#fff',
-              boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-            }}
+            className=' why-choose-us-container p-3 rounded-xl'
+            // style={{
+            //   width: '18vw',
+            //   height: '40vh',
+            //   backgroundColor: '#fff',
+            //   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+            // }}
           >
             <div
               className='our-best'
@@ -167,9 +160,8 @@ const WhyChooseUs = () => {
 
             <h4 className='font-bold mt-4'>Creative Thinking</h4>
             <p className='para-our-best'>
-              we emphasize creative problem-solving . Beyond just learning
-              technical skills, our courses are designed to inspire you to think
-              outside the box.
+              Our courses foster creative problem-solving, inspiring you to
+              think beyond technical skills.
             </p>
           </div>
         </div>

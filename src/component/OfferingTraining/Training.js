@@ -16,11 +16,12 @@ const Training = () => {
           <div className='ani-card-body'>
             <h5 className='ani-card-title'>Email Writing</h5>
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
-            <br/>
+            <br />
             <p className='ani-card-info'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur in unde eligendi. Dolorem, consectetur esse!
+              Learn to write clear, professional, and impactful emails for
+              effective communication and lasting impressions.
             </p>
-            <button className='ani-card-btn'>View More</button>
+            {/* <button className='ani-card-btn'>View More</button> */}
           </div>
         </div>
         <div className='ani-card'>
@@ -34,7 +35,8 @@ const Training = () => {
             <br />
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <p className='ani-card-info'>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur tempore aspernatur enim maiores nemo vitae.
+              We teach a logical and structured approach to solving complex
+              coding problems and scenarios.
             </p>
             {/* <button className='ani-card-btn'>View More</button> */}
           </div>
@@ -48,9 +50,10 @@ const Training = () => {
           <div className='ani-card-body'>
             <h5 className='ani-card-title'>Easy to Understand</h5>
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
-            <br/>
+            <br />
             <p className='ani-card-info'>
-             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem praesentium id, ea sed voluptas saepe.
+              We simplify complex coding concepts, making them easy to
+              understand and apply effectively.
             </p>
             {/* <button className='ani-card-btn'>View More</button> */}
           </div>
@@ -66,7 +69,8 @@ const Training = () => {
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <br />
             <p className='ani-card-info'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem animi unde adipisci expedita quos accusamus.
+              We provide training to master formal communication skills for
+              professional and impactful interactions.
             </p>
             {/* <button className='ani-card-btn'>View More</button> */}
           </div>
@@ -84,8 +88,8 @@ const Training = () => {
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <br />
             <p className='ani-card-info'>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe
-              eaque eos, aspernatur possimus nisi blanditiis.
+              We offer internships to help you gain real-world coding experience
+              and apply your skills in practical scenarios.
             </p>
             {/* <button className='ani-card-btn'>View More</button> */}
           </div>
@@ -98,11 +102,12 @@ const Training = () => {
           />
           <div className='ani-card-body'>
             <h5 className='ani-card-title'>Mock Interviews</h5>
-            {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <br />
+            {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
+
             <p className='ani-card-info'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-              minima, eligendi iure ab voluptatum alias.
+              We conduct mock interviews to prepare you for real-world job
+              interviews with confidence and expertise.
             </p>
             {/* <button className='ani-card-btn'>View More</button> */}
           </div>
@@ -118,9 +123,10 @@ const Training = () => {
             <br />
             {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <p className='ani-card-info'>
-              Economics time between india and nepal is splendid
+              We offer certifications to showcase your expertise and boost your
+              professional credibility in the tech field.
             </p>
-            <button className='ani-card-btn'>View More</button>
+            {/* <button className='ani-card-btn'>View More</button> */}
           </div>
         </div>
         <div className='ani-card'>
@@ -131,11 +137,13 @@ const Training = () => {
           />
           <div className='ani-card-body'>
             <h5 className='ani-card-title'>Economics</h5>
-            <p className='ani-card-sub-title'>Economic Ties</p>
+            <br />
+            {/* <p className='ani-card-sub-title'>Economic Ties</p> */}
             <p className='ani-card-info'>
-              Economics time between india and nepal is splendid
+              Economics time between india and nepal is splendid Lorem ipsum
+              lorem ipsum dolor sit amet.
             </p>
-            <button className='ani-card-btn'>View More</button>
+            {/* <button className='ani-card-btn'>View More</button> */}
           </div>
         </div>
       </div>

@@ -48,10 +48,10 @@ const CourseDetail = () => {
                 <ListGroup.Item>Scenario Based Projects</ListGroup.Item>
               </ListGroup>
             </Card>
-            <button className='detail-btn2 mb-3'>Book a Call</button>
+            {/* <button className='detail-btn2 mb-3'>Book a Call</button> */}
           </div>
           <div className='course-detail-card ps-3'>
-            <button className='detail-btn1 mt-3 p-2 align-start'>
+            <button className='detail-btn1 mt-3 p-2 align-start '>
               Module-II
             </button>
             <h4 className='daywise-topic mt-3 text-start'>
@@ -65,7 +65,8 @@ const CourseDetail = () => {
               context API to manage complex state across your application. */}
             </p>
             <br />
-            <Card style={{ width: '22rem' }} className='ms-2'>
+            <br />
+            <Card style={{ width: '22rem' }} className='ms-2 mt-1'>
               {/* <Card.Header>Featured</Card.Header> */}
               <ListGroup variant='flush'>
                 <ListGroup.Item>Revision of HTML & CSS</ListGroup.Item>
@@ -79,7 +80,7 @@ const CourseDetail = () => {
               </ListGroup>
             </Card>
 
-            <button className='detail-btn2'>Book a Call</button>
+            {/* <button className='detail-btn2'>Book a Call</button> */}
           </div>
           <div className='course-detail-card ps-3'>
             <button className='detail-btn1 mt-3 p-2 align-start'>
@@ -154,7 +155,7 @@ const CourseDetail = () => {
                 </Modal.Footer>
               </Modal>
             </div> */}
-            <button className='detail-btn2 mb-2'>Book a Call</button>
+            {/* <button className='detail-btn2 mb-2'>Book a Call</button> */}
           </div>
         </div>
       </div>

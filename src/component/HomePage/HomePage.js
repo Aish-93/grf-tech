@@ -19,6 +19,8 @@ import Training from '../OfferingTraining/Training';
 // import Typing from '../Typing/Typing';
 import { Typing } from '../Typing/Typing';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
+import Experts from '../Experts/Experts';
+import company from '../../icons/company.png';
 
 const HomePage = () => {
   return (
@@ -31,10 +33,33 @@ const HomePage = () => {
       {/* <Features /> */}
       <Stats />
       <WhyChooseUs />
-      <Quote />
+
+      {/* <Quote /> */}
+      <Typing
+        // heading='Things for learn:'
+        dataText={[
+          'Learn Frontend Development...',
+          'Build Projects with React.js...',
+          'Write Professional Emails...',
+          'Enhance Your Coding Skills...',
+          'Discover Career-Boosting Skills...',
+          'Level Up in Web Development...',
+          'Discover Career-Boosting Skills...',
+          'Become a Full-Stack Developer...',
+          'Explore UI/UX Design Techniques...',
+          'Learn Certified Courses...',
+        ]}
+      />
+      <Experts />
       {/* <Hcards /> */}
-      {/* <Course /> */}
-      <Company />
+      <Course />
+      {/* <Company /> */}
+      <div>
+        <h2 className='text-4xl my-4 pt-3 text-center font-bold'>
+          Projects & Training
+        </h2>
+        <img className='mx-auto' src={company} alt='' />
+      </div>
 
       {/* <Carousel /> */}
       {/* <Card /> */}
@@ -42,22 +67,7 @@ const HomePage = () => {
       <Faqs />
       <Team />
       <ReachOut />
-      <Typing
-        heading='Things for learn:'
-        dataText={[
-          'Vinyl swag.',
-          'Seitan jianbing.',
-          'Enamel pin meditation.',
-          'Denim seitan.',
-          'Semiotics austin.',
-          'Sriracha fanny pack.',
-          'Vape raw dreamcatcher.',
-          'Fam blog.',
-          '90s church-key.',
-          'Pabst distillery.',
-          'Street art unicorn.',
-        ]}
-      />
+
       <Footer />
     </div>
   );

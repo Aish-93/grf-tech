@@ -7,14 +7,14 @@ const Team = () => {
       className=' py-2 mb-5'
       style={{
         height: '72vh',
-        border: '1px solid gray',
+        // border: '1px solid gray',
       }}
     >
       <div
         className='mx-auto'
         style={{
           width: '95vw',
-          border: '1px solid black',
+          // border: '1px solid black',
           backgroundColor: '#fff',
         }}
       >

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
+import './Typing.css';
 
 const TYPING_SPEED = 150;
 const DELETING_SPEED = 30;
@@ -37,9 +38,9 @@ export const Typing = ({ heading, dataText }) => {
   }, [text, isDeleting, loopNum, typingSpeed, dataText]);
 
   return (
-    <h1>
-      {heading}&nbsp;
-      <span>{text}</span>
+    <h1 className='typing-container'>
+      {/* {heading}&nbsp; */}
+      <span className='typing-span'>{text}</span>
       <span id='cursor'></span>
     </h1>
   );
