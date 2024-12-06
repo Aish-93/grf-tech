@@ -5,9 +5,9 @@ const Experts = () => {
   return (
     <div className='d-flex m-5'>
       <div className='w-1/2 text-center mt-4'>
-        <h1 className='text-4xl font-bold'>Our Experts</h1>
+        <h1 className='text-5xl font-semibold'>Our Experts</h1>
         <br />
-        <p className='w-10/12 ps-10 text-xl'>
+        <p className='w-8/12 ml-28 mt-5 text-xl'>
           Attend our tech talks and expert lectures featuring professionals from
           diverse fields. Gain valuable insights, explore innovations, and
           expand your knowledge as they share experiences and expertise to

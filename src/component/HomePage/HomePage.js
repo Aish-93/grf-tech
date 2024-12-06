@@ -21,6 +21,7 @@ import { Typing } from '../Typing/Typing';
 import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import Experts from '../Experts/Experts';
 import company from '../../icons/company.png';
+import Certificate from '../Certificate/Certificate';
 
 const HomePage = () => {
   return (
@@ -55,11 +56,12 @@ const HomePage = () => {
       <Course />
       {/* <Company /> */}
       <div>
-        <h2 className='text-4xl my-4 pt-3 text-center font-bold'>
+        <h2 className='text-5xl my-4 pt-3 text-center font-semibold'>
           Projects & Training
         </h2>
         <img className='mx-auto' src={company} alt='' />
       </div>
+      <Certificate />
 
       {/* <Carousel /> */}
       {/* <Card /> */}

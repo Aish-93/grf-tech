@@ -34,9 +34,11 @@
 }
 
 .btn-our-best {
-  width: 90px;
+  width: 120px;
   height: 30px;
   border-radius: 15px;
   background-color: #2563eb;
   color: white;
+  font-weight: 500;
+  margin-left: 5px;
 }

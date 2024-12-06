@@ -14,14 +14,14 @@ const WhyChooseUs = () => {
         style={{ width: '75vw' }}
       >
         <div className='container-top-right'>
-          <h3 className='text-5xl font-bold leading-snug'>
+          <h3 className='text-5xl font-semibold leading-snug'>
             Why we are best
             <br /> from others?
           </h3>
           <p className='text-gray-700 text-sm p-1 mt-4'>
             Discover the Difference — Join Us Today!
           </p>
-          <button className='btn-our-best mt-4 text-sm'>Join Now</button>
+          <button className='btn-our-best  mt-4 text-sm'>Join Now</button>
         </div>
         <div className='container-top-left d-flex justify-between'>
           <div
@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
               <img src={mentor} alt='tutor' />
             </div>
 
-            <h4 className='font-bold mt-4'>Best Mentors</h4>
+            <h4 className='font-semibold mt-4'>Best Mentors</h4>
             <p className='para-our-best'>
               Our experts have years of industry experience. They provide
               hands-on, personalized guidance to help you master essential
@@ -66,7 +66,7 @@ const WhyChooseUs = () => {
               <img src={book} alt='tutor' />
             </div>
 
-            <h4 className='font-bold mt-4'>Best Curriculum</h4>
+            <h4 className='font-semibold mt-4'>Best Curriculum</h4>
             <p className='para-our-best'>
               Our curriculum is designed to keep pace with the latest industry
               trends and best practices.
@@ -100,7 +100,7 @@ const WhyChooseUs = () => {
             />
           </div>
 
-          <h4 className='font-bold mt-4'>Certificate</h4>
+          <h4 className='font-semibold mt-4'>Certificate</h4>
           <p className='para-our-best'>
             Upon successful completion of our courses, you'll receive a
             recognized certificate that adds value to your resume.
@@ -131,7 +131,7 @@ const WhyChooseUs = () => {
               />
             </div>
 
-            <h4 className='font-bold mt-4'>Best Price</h4>
+            <h4 className='font-semibold mt-4'>Best Price</h4>
             <p className='para-our-best'>
               Quality education should be accessible to all, so we offer courses
               at competitive prices without compromising quality.
@@ -158,7 +158,7 @@ const WhyChooseUs = () => {
               <img style={{ width: '32px' }} src={creative} alt='tutor' />
             </div>
 
-            <h4 className='font-bold mt-4'>Creative Thinking</h4>
+            <h4 className='font-semibold mt-4'>Creative Thinking</h4>
             <p className='para-our-best'>
               Our courses foster creative problem-solving, inspiring you to
               think beyond technical skills.

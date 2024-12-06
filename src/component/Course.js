@@ -13,7 +13,7 @@ const Course = () => {
         <div className='banner-left'>
           {/* <h1 className='banner-heading text-start'>Graphene InfoTech</h1> */}
           {/* <p className='mt-2'> Crafting the Future of Digital Innovation</p> */}
-          <p className='banner-text text-start'>
+          <p className='banner-text text-start font-semibold'>
             Unlock new career opportunities.
             <br />
             Get started with Graphene InfoTech

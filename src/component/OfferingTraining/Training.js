@@ -5,7 +5,7 @@ import email from '../../icons/email.jpg';
 const Training = () => {
   return (
     <div className='mt-5'>
-      <h3 className='verticle-heading'>We Provide </h3>
+      <h3 className='verticle-heading text-5xl font-semibold'>We Provide </h3>
       <div className='d-flex justify-content-around mt-5 mx-5 px-5'>
         <div className='ani-card'>
           <img
