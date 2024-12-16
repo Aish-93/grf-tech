@@ -17,7 +17,7 @@ const ReachOut = () => {
         <div className=' pt-3'>
           <input
             style={{ border: 'none' }}
-            className='py-3 px-5 input-box'
+            className='py-3 px-lg-5 input-box'
             placeholder='Enter Email/Phone No'
           />
           <button

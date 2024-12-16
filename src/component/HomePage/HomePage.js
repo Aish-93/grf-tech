@@ -22,21 +22,42 @@ import WhyChooseUs from '../WhyChooseUs/WhyChooseUs';
 import Experts from '../Experts/Experts';
 import company from '../../icons/company.png';
 import Certificate from '../Certificate/Certificate';
+import bannerquote from '../../icons/bannertech.png';
 
 const HomePage = () => {
   return (
-    <div>
+    <div className=''>
       <Header />
-
-      <Banner />
-      <Training />
+      <div
+        style={{
+          // border: '1px solid black ',
+          // padding: '40px',
+          width: '70vw',
+        }}
+      >
+        <img
+          className=''
+          src={bannerquote}
+          alt=''
+          style={{
+            border: '1px solid black ',
+            padding: '40px',
+            width: '100%',
+          }}
+        />
+      </div>
+      {/* <div className='banner-img'>
+        <img className='quote-img-banner' src={bannerquote} alt='' />
+      </div> */}
+      {/* <Banner /> */}
+      {/* <Training /> */}
       {/* <AdvancedBannerTop /> */}
       {/* <Features /> */}
-      <Stats />
-      <WhyChooseUs />
+      {/* <Stats /> */}
+      {/* <WhyChooseUs /> */}
 
       {/* <Quote /> */}
-      <Typing
+      {/* <Typing
         // heading='Things for learn:'
         dataText={[
           'Learn Frontend Development...',
@@ -50,27 +71,27 @@ const HomePage = () => {
           'Explore UI/UX Design Techniques...',
           'Learn Certified Courses...',
         ]}
-      />
-      <Experts />
+      /> */}
+      {/* <Experts /> */}
       {/* <Hcards /> */}
       <Course />
       {/* <Company /> */}
-      <div>
+      {/* <div>
         <h2 className='text-5xl my-4 pt-3 text-center font-semibold'>
           Projects & Training
         </h2>
         <img className='mx-auto' src={company} alt='' />
-      </div>
-      <Certificate />
+      </div> */}
+      {/* <Team /> */}
+      {/* <Certificate /> */}
 
       {/* <Carousel /> */}
       {/* <Card /> */}
       {/* <Blogs /> */}
-      <Faqs />
-      <Team />
-      <ReachOut />
+      {/* <ReachOut /> */}
+      {/* <Faqs /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,0 +1,40 @@
+@media screen and (min-width: 100px) and (max-width: 930px) {
+  .certificate-container h2 {
+    font-size: xx-large;
+  }
+
+  .certificate-img {
+    margin-left: 50px;
+    width: 90vw;
+    height: 40vh;
+    object-fit: contain;
+  }
+  .certificate-para1 {
+    width: 100%;
+  }
+  .certificate-para2 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 933px) {
+  .certificate-container {
+    width: 100%;
+  }
+  .certificate-img {
+    /* margin-left: 100px; */
+    width: 40vw;
+    height: 35vw;
+    /* object-fit: contain; */
+  }
+  .certificate-para1 {
+    width: 40%;
+  }
+  .certificate-division {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+  }
+  .stages {
+    width: 35vw;
+  }
+}

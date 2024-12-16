@@ -8,65 +8,46 @@ import creative from './../../icons/creative.png';
 
 const WhyChooseUs = () => {
   return (
-    <div className='mb-5 pt-5' style={{ width: 'full', height: 'auto' }}>
-      <div
-        className='d-flex justify-between mx-auto mb-4'
-        style={{ width: '75vw' }}
-      >
+    <div className='why-us-container mb-5 lg:pt-5'>
+      <div className='top-container d-lg-flex justify-between mx-auto mb-4'>
         <div className='container-top-right'>
-          <h3 className='text-5xl font-semibold leading-snug'>
+          <h3 className='lg:text-5xl font-semibold leading-snug'>
             Why we are best
             <br /> from others?
           </h3>
-          <p className='text-gray-700 text-sm p-1 mt-4'>
+          <p className='text-gray-700 lg:text-sm p-1 mt-lg-4'>
             Discover the Difference — Join Us Today!
           </p>
-          <button className='btn-our-best  mt-4 text-sm'>Join Now</button>
+          <button className='btn-our-best mt-lg-4 lg:text-sm'>Join Now</button>
         </div>
-        <div className='container-top-left d-flex justify-between'>
-          <div
-            className='why-choose-us-container p-3 rounded-xl'
-            // style={{
-            //   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-            //   width: '18vw',
-            // }}
-          >
-            <div
-              className='our-best p-3'
-              style={{
-                backgroundColor: '#A784F7',
-              }}
-            >
-              {' '}
+        <div className='container-top-left d-lg-flex justify-between'>
+          <div className='why-choose-us-container p-3 rounded-xl'>
+            <div className='our-best p-3'>
               <img src={mentor} alt='tutor' />
             </div>
 
-            <h4 className='font-semibold mt-4'>Best Mentors</h4>
+            <h4 className='main-chooseus-points font-semibold mt-4'>
+              Best Mentors
+            </h4>
             <p className='para-our-best'>
               Our experts have years of industry experience. They provide
               hands-on, personalized guidance to help you master essential
               skills.
             </p>
           </div>
-          <div
-            className='why-choose-us-container p-3 rounded-xl'
-            // style={{
-            //   boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-            //   width: '18vw',
-            //   backgroundColor: '#fff',
-            // }}
-          >
+          <div className='why-choose-us-container p-3 rounded-xl'>
             <div
               className='our-best p-3'
               style={{
                 backgroundColor: '#91E05E',
               }}
             >
-              {' '}
               <img src={book} alt='tutor' />
             </div>
 
-            <h4 className='font-semibold mt-4'>Best Curriculum</h4>
+            <h4 className='main-chooseus-points font-semibold mt-4'>
+              Best Curriculum
+            </h4>
             <p className='para-our-best'>
               Our curriculum is designed to keep pace with the latest industry
               trends and best practices.
@@ -74,12 +55,12 @@ const WhyChooseUs = () => {
           </div>
         </div>
       </div>
-      <div className='d-flex justify-between mx-auto' style={{ width: '75vw' }}>
+      <div className='d-lg-flex justify-between' style={{ width: '89vw' }}>
         <div
-          className='why-choose-us-container p-3 rounded-xl'
-          style={{
-            marginLeft: '276px',
-          }}
+          className='certificate why-choose-us-container p-3 rounded-xl'
+          // style={{
+          //   marginLeft: '276px',
+          // }}
         >
           <div
             className='our-best'
@@ -100,45 +81,43 @@ const WhyChooseUs = () => {
             />
           </div>
 
-          <h4 className='font-semibold mt-4'>Certificate</h4>
+          <h4 className='main-chooseus-points font-semibold mt-4'>
+            Certificate
+          </h4>
           <p className='para-our-best'>
             Upon successful completion of our courses, you'll receive a
             recognized certificate that adds value to your resume.
           </p>
         </div>
-        <div className='container-top-left d-flex justify-between'>
-          <div
-            className=' why-choose-us-container p-3 rounded-xl'
-            style={{
-              // border: '1px solid gray',
-              boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-              width: '18vw',
-              height: '40vh',
-            }}
-          >
-            <div
-              className='our-best p-2'
-              style={{
-                backgroundColor: '#F77FB4',
-              }}
-            >
-              {' '}
-              <img
-                className=''
-                style={{ width: '38px' }}
-                src={bestprice}
-                alt='tutor'
-              />
-            </div>
+        <div className='container-bottom-left bottom-rightside d-lg-flex lg:justify-between'>
+          <div className='whychooseus-points'>
+            <div className=' bestprice why-choose-us-container p-3 rounded-xl'>
+              <div
+                className='our-best p-1'
+                style={{
+                  backgroundColor: '#F77FB4',
+                }}
+              >
+                {' '}
+                <img
+                  className=''
+                  // style={{ width: '38px' }}
+                  src={bestprice}
+                  alt='tutor'
+                />
+              </div>
 
-            <h4 className='font-semibold mt-4'>Best Price</h4>
-            <p className='para-our-best'>
-              Quality education should be accessible to all, so we offer courses
-              at competitive prices without compromising quality.
-            </p>
+              <h4 className='main-chooseus-points font-semibold mt-4'>
+                Best Price
+              </h4>
+              <p className='para-our-best'>
+                Quality education should be accessible to all, so we offer
+                courses at competitive prices without compromising quality.
+              </p>
+            </div>
           </div>
           <div
-            className=' why-choose-us-container p-3 rounded-xl'
+            className='bestprice why-choose-us-container p-3 rounded-xl'
             // style={{
             //   width: '18vw',
             //   height: '40vh',
@@ -158,7 +137,9 @@ const WhyChooseUs = () => {
               <img style={{ width: '32px' }} src={creative} alt='tutor' />
             </div>
 
-            <h4 className='font-semibold mt-4'>Creative Thinking</h4>
+            <h4 className='main-chooseus-points font-semibold mt-4'>
+              Creative Thinking
+            </h4>
             <p className='para-our-best'>
               Our courses foster creative problem-solving, inspiring you to
               think beyond technical skills.

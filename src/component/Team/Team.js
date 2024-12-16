@@ -3,13 +3,7 @@ import './Team.css';
 
 const Team = () => {
   return (
-    <div
-      className=' py-2 mb-5'
-      style={{
-        height: '72vh',
-        // border: '1px solid gray',
-      }}
-    >
+    <div className='team-main-container py-lg-2'>
       <div
         className='mx-auto'
         style={{
@@ -19,14 +13,16 @@ const Team = () => {
         }}
       >
         {' '}
-        <h4 className='team-heading text-center mb-1'>Our Team</h4>
+        <h4 className='team-heading text-center mb-1 font-semibold'>
+          Our Team
+        </h4>
         <p className='text-center' style={{ fontSize: '20px' }}>
           We’re a dynamic group of individuals who are passionate about what we
           do
           <br />
           and dedicated to delivering the best results for our clients.
         </p>
-        <div className='team-container d-flex'>
+        <div className='team-container d-lg-flex'>
           <div className='team-card mt-5'>
             <img
               className='team-img'

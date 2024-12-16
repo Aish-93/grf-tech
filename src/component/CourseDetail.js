@@ -19,7 +19,7 @@ const CourseDetail = () => {
         {/* <h2 className='course-detail-heading mt-5 mx-auto  text-center'>
           HOW IT WORKS
         </h2> */}
-        <div className='daywise-course-container d-flex justify-between flex-wrap mt-5'>
+        <div className='daywise-course-container d-lg-flex justify-between flex-wrap mt-5'>
           <div className='course-detail-card ps-3 mb-5'>
             <button className='detail-btn1 mt-3 p-2 align-start'>
               Module-I

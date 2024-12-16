@@ -105,3 +105,12 @@
 .need-help-heading {
   font-size: 59px;
 }
+
+@media screen and (min-width: 100px) and (max-width: 930px) {
+  .input-box {
+    width: 50vw;
+  }
+  /* .input-box::placeholder {
+    padding-right: 10px;
+  } */
+}

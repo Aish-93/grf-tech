@@ -12,6 +12,7 @@
   }
   ```
 */
+
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid';
 import './Course.css';
 

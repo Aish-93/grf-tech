@@ -1,13 +1,31 @@
-.quote-img-banner {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
+@media screen and (min-width: 932px) {
+  .quote-img-banner {
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    object-fit: cover;
+    border: 1px solid black;
+  }
 
-.banner-img {
-  height: 85vh;
-  /* width: 100%; */
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  /* object-fit: cover;
+  .banner-img {
+    height: 85vh;
+    width: 80vw;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* object-fit: cover;
     background: url('./../../icons/quote.png'); */
+  }
+}
+@media screen and (min-width: 100px) and (max-width: 931px) {
+  .quote-img-banner {
+    width: 96%;
+    height: 25vh;
+    object-fit: cover;
+  }
+  .banner-img {
+    height: 30vh;
+    width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    object-fit: cover;
+  }
 }

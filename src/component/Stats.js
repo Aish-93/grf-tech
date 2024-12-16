@@ -28,15 +28,15 @@ const Stats = () => {
   //   },[]);
 
   return (
-    <div className='counter-section mx-auto rounded-3xl sm:py-8'>
-      <div className='mx-auto max-w-7xl px-5 lg:px-8'>
+    <div className='counter-section-container rounded-3xl sm:py-10'>
+      <div className=' counter-section mx-auto max-w-7xl lg:px-8'>
         <dl className='counter grid grid-cols-1 text-center lg:grid-cols-3'>
           {stats.map((stat) => (
             <div
               key={stat.id}
-              className='mx-auto flex max-w-xs flex-col gap-y-4'
+              className='mx-auto flex flex-col lg:gap-y-4  sm:gap-y-6'
             >
-              <dt className='stats-text text-base/7 text-gray-800 "Roboto Serif", sans-serif'>
+              <dt className='stats-text pt-2 text-base/7 text-gray-800 "Roboto Serif", sans-serif'>
                 {stat.name}
               </dt>
               <dd className='order-first text-3xl font-semibold tracking-tight text-gray-800 sm:text-5xl'>

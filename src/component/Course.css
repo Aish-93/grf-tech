@@ -1,18 +1,252 @@
+@media screen and (min-width:933px){
+  /* for Course.js */
 .course-banner {
-  height: 60vh;
-  width: 100vw;
-  color: #211f1f;
-  background-color: #fff;
-  font-weight: 700;
-  background-size: cover;
+    width:100vw;
+    height:55vh ;
+    color: #211f1f;
+    background-color: #fff;
+    font-weight: 700;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0;
+    padding-right: 20vw;
+    z-index: -1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    /* border: 1px solid rgb(196, 194, 194); */
+  }
+    .btn-container-banner {
+      width: 26vw;
+      margin-top: 4vw;
+    }
+  
+    .banner-text {
+      margin-top: 4vw;
+      font-size: 22px;
+      color: #0866ff;
+    }
+        .join-btn1,
+        .join-btn2 {
+          width: 12vw;
+          font-size: larger;
+          font-weight: 600;
+          background-color: #fff;
+          color: #0866ff;
+          border: 1px solid #0866ff;
+          border-radius: 22px;
+        }
+    
+        .join-btn1:hover {
+          width: 12vw;
+          font-size: larger;
+          font-weight: 600;
+          color: white;
+          background-color: #0866ff;
+          border: none;
+        }
+    
+        .join-btn2:hover {
+          width: 12vw;
+          font-size: larger;
+          font-weight: 600;
+          color: white;
+          /* background-color:#0866ff; */
+          background-color: #0866ff;
+          border: none;
+        }
+
+
+        /* For CourseDetail.js */
+.banner-course {
+  /* background: url('file:///C:/Users/aakrt/Downloads/Untitled%20design%20(3).png'); */
+  background: url('C:\Users\aakrt\OneDrive\Desktop\grpn-infotech\grf-tech\src\icons\grouppic.jpg');
   background-repeat: no-repeat;
-  bottom: 0;
-  padding-right: 20vw;
-  z-index: -1;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
-    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-  /* border: 1px solid rgb(196, 194, 194); */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 70vh;
+  width: 100%;
+  filter: brightness(60%);
 }
+
+.banner-course-heading {
+  color: #fff;
+  position: absolute;
+  /* Ensure it sits above the ::before overlay */
+  z-index: 1;
+  margin-top: 40vh;
+  font-size: 65px;
+  font-weight: 700;
+  margin-left: 32vw;
+
+  /* mix-blend-mode: normal; */
+  /* background-color: transparent; */
+}
+
+.banner-course::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(62, 91, 122, 0.6);
+  pointer-events: none;
+  /* To ensure the content remains interactive if necessary */
+}
+.course-detail-card {
+  width: 26vw;
+  height: 96vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 15px;
+}
+
+.course-detail-card:hover {
+  transform: scale(1.02);
+  transition: calc(1.2);
+}
+.detail-btn1 {
+  width: 27%;
+  /* border: 2px solid #424ecf; */
+  border: 2px solid #0866ff;
+  /* border: 2px solid rgb(103, 64, 41); */
+  /* color: #424ecf; */
+  color: #0866ff;
+  /* color: rgb(103, 64, 41); */
+  font-weight: 600;
+  border-radius: 22px;
+  margin-right: 24vw;
+  border-style: solid;
+  padding-left: var(--wp--preset--spacing--50);
+}
+}
+@media  screen and (min-width:100px) and (max-width:930px) {
+  .banner-container{
+    width: 100vw;
+    height: 65vh;
+    /* border: 1px solid blue; */
+    
+  }.course-banner {
+      height: 70vh;
+      width: 100%;
+      color: #211f1f;
+      background-color: #fff;
+      font-weight: 700;
+      background-size: cover;
+      background-repeat: no-repeat;
+      bottom: 0;
+      padding-right: 20vw;
+      z-index: -1;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+      /* border: 1px solid rgb(196, 194, 194); */
+    }
+    .banner-left {
+      width: 100vw;
+      text-align: center;
+      /* padding-left: 15vw; */
+    }
+    .banner-text {
+      width: 70vw;
+      font-size: x-large;
+      text-align: center;
+  
+    }
+    .btn-container-banner {
+          width: 70vw;
+          height:6vh;
+          margin-top: 4vw;
+          /* border: 1px solid black; */
+          justify-content: space-between;
+          display: flex;
+        }
+    .join-btn1, .join-btn2 {
+      width: 40%;
+      height: 5vh;
+      font-size: small;
+      font-weight: 600;
+      background-color: #fff;
+      color: #0866ff;
+      border: 1px solid #0866ff;
+      border-radius: 22px;
+    }
+    
+    .join-btn1:hover {
+      width: 40%;
+      font-size: small;
+      font-weight: 500;
+      color: white;
+      background-color: #0866ff;
+      border: none;
+    }
+    
+    .join-btn2:hover {
+      width: 40%;
+      font-size: small;
+      font-weight: 500;
+      color: white;
+      /* background-color:#0866ff; */
+      background-color: #0866ff;
+      border: none;
+    }
+
+    /* For CourseDetail.js */
+        .banner-course {
+          /* background: url('file:///C:/Users/aakrt/Downloads/Untitled%20design%20(3).png'); */
+          background: url('C:\Users\aakrt\OneDrive\Desktop\grpn-infotech\grf-tech\src\icons\grouppic.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          height: 20vh;
+          filter: brightness(60%);
+        }
+    
+        .banner-course-heading {
+          color: #fff;
+          position: absolute;
+          /* Ensure it sits above the ::before overlay */
+          z-index: 1;
+          margin-top: 8vh;
+          font-size: 40px;
+          font-weight: 700;
+          margin-left: 20vw;
+    
+          /* mix-blend-mode: normal; */
+          /* background-color: transparent; */
+        }
+    
+        .banner-course::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(62, 91, 122, 0.6);
+          pointer-events: none;
+          /* To ensure the content remains interactive if necessary */
+        }
+        .course-detail-card{
+          width: 90vw;
+        }
+                .detail-btn1 {
+                  width: 30%;
+                  /* border: 2px solid #424ecf; */
+                  border: 2px solid #0866ff;
+                  /* border: 2px solid rgb(103, 64, 41); */
+                  /* color: #424ecf; */
+                  color: #0866ff;
+                  /* color: rgb(103, 64, 41); */
+                  font-weight: 600;
+                  border-radius: 22px;
+                  margin-right: 24vw;
+                  border-style: solid;
+                  padding-left: var(--wp--preset--spacing--50);
+                }
+}
+
 
 .banner-heading {
   font-size: 48px;
@@ -26,49 +260,7 @@
   font-size: 24px;
 } */
 
-.banner-course {
-  /* background: url('file:///C:/Users/aakrt/Downloads/Untitled%20design%20(3).png'); */
-  background: url('C:\Users\aakrt\OneDrive\Desktop\grpn-infotech\grf-tech\src\icons\grouppic.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  height: 70vh;
-  filter: brightness(60%);
-}
-.banner-course-heading {
-  color: #fff;
-  position: absolute; /* Ensure it sits above the ::before overlay */
-  z-index: 1;
-  margin-top: 40vh;
-  font-size: 65px;
-  font-weight: 700;
-  margin-left: 32vw;
 
-  /* mix-blend-mode: normal; */
-  /* background-color: transparent; */
-}
-.banner-course::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(62, 91, 122, 0.6);
-  pointer-events: none; /* To ensure the content remains interactive if necessary */
-}
-
-.btn-container-banner {
-  width: 26vw;
-  margin-top: 4vw;
-}
-
-.banner-text {
-  margin-top: 4vw;
-  font-size: 22px;
-  color: #0866ff;
-}
 
 .banner-container {
   width: 100vw;
@@ -79,33 +271,6 @@
   padding-left: 15vw;
 }
 
-.join-btn1,
-.join-btn2 {
-  width: 12vw;
-  font-size: larger;
-  font-weight: 600;
-  background-color: #fff;
-  color: #0866ff;
-  border: 1px solid #0866ff;
-  border-radius: 22px;
-}
-.join-btn1:hover {
-  width: 12vw;
-  font-size: larger;
-  font-weight: 600;
-  color: white;
-  background-color: #0866ff;
-  border: none;
-}
-.join-btn2:hover {
-  width: 12vw;
-  font-size: larger;
-  font-weight: 600;
-  color: white;
-  /* background-color:#0866ff; */
-  background-color: #0866ff;
-  border: none;
-}
 
 .banner-right {
   width: 50%;
@@ -156,37 +321,13 @@
   /* position: relative; */
 }
 
-.course-detail-card {
-  width: 26vw;
-  height: 96vh;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  border-radius: 15px;
-}
-.course-detail-card:hover {
-  transform: scale(1.02);
-  transition: calc(1.2);
-}
 
 .daywise-text {
   font-style: normal;
   /* font-optical-sizing: auto; */
 }
 
-.detail-btn1 {
-  width: 27%;
-  /* border: 2px solid #424ecf; */
-  border: 2px solid #0866ff;
-  /* border: 2px solid rgb(103, 64, 41); */
-  /* color: #424ecf; */
-  color: #0866ff;
-  /* color: rgb(103, 64, 41); */
-  font-weight: 600;
-  border-radius: 22px;
-  margin-right: 24vw;
-  border-style: solid;
-  padding-left: var(--wp--preset--spacing--50);
-}
+
 
 .detail-btn2 {
   width: 24vw;

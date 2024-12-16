@@ -4,8 +4,10 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div className='banner-img pb-5 pt-5'>
-      <img className='quote-img-banner' src={bannerquote} alt='' />
+    <div style={{ overflowX: 'hidden' }}>
+      <div className='banner-img '>
+        <img className='quote-img-banner' src={bannerquote} alt='' />
+      </div>
     </div>
   );
 };

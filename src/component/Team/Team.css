@@ -1,9 +1,14 @@
 * {
   font-family: poppins, serif;
 }
+.team-main-container {
+  height: 72vh;
+  margin-bottom: 20px;
+  /* border: 1px solid gray; */
+}
 .team-heading {
   font-size: 38px;
-  font-weight: 700;
+  /* font-weight: 700; */
   font-family: poppins, serif;
 }
 .team-container {
@@ -41,4 +46,26 @@
   font-size: 18px;
   font-weight: 400;
   color: rgb(107, 104, 104);
+}
+@media screen and (min-width: 100px) and (max-width: 930px) {
+  .team-main-container {
+    height: 190vh;
+    /* border: 1px solid gray; */
+  }
+  .team-container {
+    width: 70vw;
+    /* justify-content: space-between; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .team-card {
+    width: 70vw;
+    height: 38vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid blue; */
+  }
+  .team-img {
+    margin-left: 20px;
+  }
 }

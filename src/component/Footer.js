@@ -14,7 +14,7 @@ import C from '../icons/icons8-location-24.png';
 
 function Footer() {
   return (
-    <footer className='border-stone-500 border-solid'>
+    <footer className='footer-main-container border-stone-500 border-solid'>
       {/* <div className="flex flex-col max-w-full justify-center items-center min-h-60 container mx-auto px-6 md:px-1 ">
         <div className="flex flex-col">
           <div className="flex listing">
@@ -44,7 +44,7 @@ function Footer() {
       </div> */}
       <div className='footer-block py-2 mt-5'>
         <div className='px-5 ul'>
-          <div className=' py-4 d-flex justify-content-around'>
+          <div className=' py-4 d-lg-flex justify-content-around'>
             <div
               style={{
                 flexDirection: 'column',
@@ -73,7 +73,7 @@ function Footer() {
               </p>
             </div>
 
-            <div className='my-5 footer-links'>
+            {/* <div className='my-5 footer-links'>
               <h4
                 className=' text-start footer-block-txt pb-1 page-title'
                 style={{ fontSize: '22px' }}
@@ -93,19 +93,13 @@ function Footer() {
                 Contact Us
               </h5>
 
-              {/* <h5
-                className='text-start footer-block-txt mt-2'
-                style={{ fontSize: '16px' }}
-              >
-                Blogs
-              </h5> */}
               <h5
                 className='text-start footer-block-txt mt-2'
                 style={{ fontSize: '16px' }}
               >
                 FAQ's
               </h5>
-            </div>
+            </div> */}
 
             {/* <div className='my-5 footer-links'>
               <h4

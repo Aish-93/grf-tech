@@ -1,10 +1,21 @@
 .faqs {
   width: 100%;
+  height: 65vh;
+  /* border: 1px solid blue; */
+  /* margin-bottom: 0; */
+  /* padding-bottom: 0; */
+  /* border: 1px solid red; */
+}
+
+.faq-img {
+  width: 30vw;
+  height: 28vw;
+  object-fit: contain;
 }
 
 .faq-heading {
   font-size: 38px;
-  font-weight: 700;
+  /* font-weight: 700; */
   width: 60%;
   /* border: 1px solid black; */
 }
@@ -21,4 +32,19 @@
 
 .accordion-button:not(.collapsed) {
   background-color: #effaff;
+}
+
+@media screen and (min-width: 100px) and (max-width: 930px) {
+  .faq-heading {
+    font-size: xx-large;
+  }
+  .faq-img {
+    width: 100vw;
+    height: 28vh;
+  }
+  .faq-acc {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -38,10 +38,14 @@ export const Typing = ({ heading, dataText }) => {
   }, [text, isDeleting, loopNum, typingSpeed, dataText]);
 
   return (
-    <h1 className='typing-container'>
+    <div className='typing-container'>
       {/* {heading}&nbsp; */}
-      <span className='typing-span'>{text}</span>
-      <span id='cursor'></span>
-    </h1>
+      <div className='typing-text'>
+        <p>
+          <span className='typing-span'>{text}</span>
+          <span id='cursor'></span>
+        </p>
+      </div>
+    </div>
   );
 };

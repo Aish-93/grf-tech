@@ -1,0 +1,69 @@
+
+@media screen and (min-width:933px){
+  .enrol-form-field{
+    width: 50%;
+  }
+    .enrollment-form {
+      width: 100%;
+      margin: auto;
+      font-family: Arial, sans-serif;
+    }
+}
+@media screen and (min-width:100px) and (max-width:932px){
+  .enrol-form-field {
+    width: 100%;
+  }
+  .enroll-field{
+    width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .enroll-field-btn{
+    width: 80%;
+    padding-bottom: 10px;
+
+  }
+  .formbtn-container{
+    width: 100%;
+  }
+}
+.enrollment-form-heading {
+  
+  background: url('C:\Users\aakrt\OneDrive\Desktop\grpn-infotech\grf-tech\src\icons\grouppic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+  filter: brightness(60%);
+  font-size: 42px;
+  padding-top: 22vh;
+  color: #fff;
+}
+
+.enrollment-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.enrollment-form input,
+.enrollment-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.enrollment-form .error {
+  color: red;
+  font-size: 12px;
+}
+
+.enrollment-form button {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

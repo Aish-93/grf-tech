@@ -4,9 +4,9 @@ import email from '../../icons/email.jpg';
 
 const Training = () => {
   return (
-    <div className='mt-5'>
-      <h3 className='verticle-heading text-5xl font-semibold'>We Provide </h3>
-      <div className='d-flex justify-content-around mt-5 mx-5 px-5'>
+    <div className='training-container pt-5'>
+      <h3 className='vertical-heading text-5xl font-semibold'>We Provide </h3>
+      <div className='d-lg-flex justify-content-around mt-5 mx-lg-5 px-lg-5 flex-sm-wrap'>
         <div className='ani-card'>
           <img
             src='https://img.freepik.com/free-photo/view-office-desk-with-messy-workspace-laptop_23-2150282081.jpg?uid=R139239883&ga=GA1.1.1110932627.1730523152&semt=ais_hybrid'
@@ -76,7 +76,7 @@ const Training = () => {
           </div>
         </div>
       </div>
-      <div className='d-flex justify-content-around pb-5 my-5 mx-5 px-5'>
+      <div className='d-lg-flex justify-content-around pb-5 my-5 mx-lg-5 px-lg-5'>
         <div className='ani-card'>
           <img
             src='https://img.freepik.com/free-photo/colleagues-learning-together-group-study_23-2149211095.jpg?t=st=1731694349~exp=1731697949~hmac=e1990e1110b483c500e69ebc16869ae7f361b03a0eb784fdaf73e844ea206526&w=996'

@@ -1,3 +1,20 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app-container {
+  width: 100vw;
+}
+.homepage-container {
+  width: 100vw;
+}
+
+@media screen and (min-device-width: 280px) and (max-device-width: 768px) {
+  .app-container {
+    width: 100vw;
+  }
+}
 .card-livspace {
   border: 1px solid rgb(242, 236, 236);
   width: 23vw;
@@ -49,10 +66,31 @@
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
 /* Stats.js  */
+/* @media screen and (min-device-width: 430px) and (max-device-width: 932px) {
+  .counter-section-container {
+    background-color: #fff;
+    border: 2px solid red;
+    width: 100%;
+    height: 40vh;
+  }
+  .counter-section {
+    background-color: #fff;
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid blue;
+  }
+} */
+.counter-section-container {
+  background-color: #fff;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 25vh;
+}
 .counter-section {
-  /* background-color: #EEFAFF; */
   background-color: #fff;
   width: 90vw;
+  height: 15vh;
+  /* border: 2px solid blue; */
 }
 
 .order-first {
@@ -64,7 +102,6 @@
 }
 
 /* CSS FOR Blog.js */
-
 .word-card {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -89,24 +126,19 @@
   transform: scale(1.1);
 }
 
-/* Ensure that the parent container has perspective */
-/* .bg-white {
-  perspective: 1500px;
-} */
-
-/* .text-glow {
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6);
-}
-
-.text-glow-blue {
-  text-shadow: 0 0 10px rgba(0, 204, 255, 0.8), 0 0 20px rgba(0, 204, 255, 0.6);
-} */
-
 .header {
+  width: 100%;
   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
     rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
 
+.modal-text {
+  width: 100%;
+}
+.modal-body {
+  max-height: 80%;
+  overflow-y: auto;
+}
 
 /* Carousel css */
 .carousel-container {

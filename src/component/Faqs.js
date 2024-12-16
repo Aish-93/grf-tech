@@ -5,21 +5,16 @@ import F from '../icons/faq1.jpg';
 
 const Faqs = () => {
   return (
-    <div className='faqs p-10'>
-      <h2 className='faq-heading mx-auto text-center'>
+    <div className='faqs pt-3'>
+      <h2 className='faq-heading mx-auto font-semibold text-center'>
         Frequently Asked Questions
       </h2>
-      <div className='d-flex'>
+      <div className='d-lg-flex'>
         <div className='faq-left'>
-          <img
-            className='pb-5'
-            src={F}
-            alt='FAQ'
-            style={{ width: '30vw', height: '30vw', objectFit: 'contain' }}
-          />
+          <img className='faq-img pb-5' src={F} alt='FAQ' />
         </div>
         <div className='faq-right'>
-          <Accordion className='faq-acc mt-5' flush>
+          <Accordion className='faq-acc mt-lg-5' flush>
             <Accordion.Item eventKey='0'>
               <Accordion.Header className='faq-header'>
                 Can I join Graphene InfoTech as a beginner?

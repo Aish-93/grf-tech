@@ -27,7 +27,11 @@
   border-bottom: 5px solid rgb(168, 82, 7);
   /* This creates the border. Replace black with whatever color you want. */
 }
-
+.footer-main-container {
+  /* height: 35vh; */
+  width: 100%;
+  border: 1px solid gray;
+}
 .footer-container {
   margin-top: 350px;
 }
@@ -64,12 +68,13 @@
   /* display: inline-block; */
   color: #fff;
   position: relative;
-  /* background: url('../icons/giLogo.jpg') no-repeat fixed center; */
-  /* background-position: center; */
+  background: url('https://www.dirtblaster.in/wp-content/uploads/2020/03/office-cleaning-1.jpg')
+    no-repeat fixed center;
+  background-position: center;
   /* Center the image */
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   /* Do not repeat the image */
-  /* background-size: cover; */
+  background-size: cover;
   /* Resize the background image to cover the entire container */
   padding: 10px;
 }
@@ -82,8 +87,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  /* background: rgba(0, 0, 0, 0.5); */
-  background: rgb(17, 24, 39);
+  background: rgba(0, 0, 0, 0.5);
+  /* background: rgb(17, 24, 39); */
 
   transition: all 0.2s linear;
 }

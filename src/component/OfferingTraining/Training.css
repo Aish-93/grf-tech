@@ -1,22 +1,54 @@
-.verticle-heading {
+.training-container {
+  width: 100vw;
+  height: 120vh;
+  border: 1px solid black;
+}
+@media screen and (min-width: 430px) and (max-width: 932px) {
+  .training-container {
+    height: 280vh;
+    border: 2px solid black;
+  }
+  .ani-card {
+    width: 4vw;
+    height: 30vw;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid rgb(24, 13, 13);
+  }
+
+  .ani-card-img {
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid rgb(144, 30, 30);
+  }
+  .ani-card-body {
+    width: 30vw;
+    height: 60vw;
+    top: 0;
+    right: -100%;
+    position: absolute;
+    background: #1f3d4738;
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: 10s;
+  }
+}
+.vertical-heading {
   text-align: center;
-  /* font-size: 45px; */
-  /* font-weight: 700; */
   font-family: 'DM Serif Text', serif;
   font-style: normal;
-
-  /* .dm-serif-text-regular-italic {
-        font-family: "DM Serif Text", serif;
-        font-weight: 400;
-        font-style: italic;
-    } */
 }
 
 .ani-card {
   width: 220px;
   height: 300px;
   border-radius: 8px;
-  /* border: 1px solid #fff; */
   position: relative;
   overflow: hidden;
 }
@@ -69,12 +101,10 @@
 .ani-card-info {
   font-size: 18px;
   line-height: 25px;
-  /* margin: 40px 0; */
   font-weight: 400;
 }
 
 .ani-card-btn {
-  /* color: #fff; */
   color: #1f3d47;
   background: #8fabba;
   padding: 3px 5px;
@@ -83,7 +113,6 @@
   text-transform: capitalize;
   border: none;
   outline: none;
-  /* font-weight: 500; */
   cursor: pointer;
 }
 

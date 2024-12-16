@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-
+import { Button, Modal } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 import {
   Dialog,
   DialogPanel,
@@ -28,7 +29,6 @@ import {
 } from '@heroicons/react/20/solid';
 import logo from '../icons/giLogo.jpg';
 
-// import logo from "../icons/logo.ico.jpeg"
 const products = [
   {
     name: 'Analytics',
@@ -69,6 +69,13 @@ const callsToAction = [
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  let navigate = useNavigate();
+
   return (
     <div className='header'>
       <header className='bg-white'>
@@ -98,7 +105,7 @@ const Header = () => {
             </button>
           </div>
           <PopoverGroup className='hidden lg:flex lg:gap-x-12'>
-            <Popover className='relative'>
+            {/* <Popover className='relative'>
               <PopoverButton className='flex items-center gap-x-1 text-sm/2 font-semibold text-gray-900'>
                 Product
                 <ChevronDownIcon
@@ -109,7 +116,7 @@ const Header = () => {
 
               <PopoverPanel
                 transition
-                className='absolute -left-8 top-full mt-3 w-screen max-w-md overflow-hidden rounded-3xl z-40  bg-current shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
+                className='absolute -left-8 top-full mt-3 w-screen max-w-md overflow-hidden rounded-3xl z-40  bg-white shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in'
               >
                 <div className='p-4'>
                   {products.map((item) => (
@@ -152,19 +159,37 @@ const Header = () => {
                   ))}
                 </div>
               </PopoverPanel>
-            </Popover>
+            </Popover> */}
 
             <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Features
             </a>
             <a href='#' className='text-sm/2 font-semibold text-gray-900'>
-              Coding Test
+              Help
             </a>
-            <a href='#' className='text-sm/2 font-semibold text-gray-900'>
+            {/* <a href='#' className='text-sm/2 font-semibold text-gray-900'>
               Online videos
-            </a>
+            </a> */}
             <a href='#' className='text-sm/2 font-semibold text-gray-900'>
-              Submit a doubt
+              <button variant='primary' onClick={handleShow}>
+                Submit a doubt
+              </button>
+              <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                  <Modal.Title>Ask your question?</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  <textarea className='modal-text' type='text'></textarea>
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button variant='secondary' onClick={handleClose}>
+                    Close
+                  </Button>
+                  <Button variant='primary' onClick={handleClose}>
+                    Submit
+                  </Button>
+                </Modal.Footer>
+              </Modal>
             </a>
           </PopoverGroup>
           <div className='hidden lg:flex lg:flex-1 lg:justify-end'>
